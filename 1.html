@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman dengan Tabs</title>
+    <style>
+        .tab-content {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Selamat Datang!</h1>
+
+    <div class="tabs">
+        <button onclick="showTab('tab1')">Tab 1</button>
+        <button onclick="showTab('tab2')">Tab 2</button>
+        <button onclick="showTab('tab3')">Tab 3</button>
+    </div>
+
+    <div id="tab1" class="tab-content">
+        <p>Konten dari Tab 1.</p>
+    </div>
+
+    <div id="tab2" class="tab-content">
+        <p>Konten dari Tab 2.</p>
+    </div>
+
+    <div id="tab3" class="tab-content">
+        <p>Konten dari Tab 3.</p>
+    </div>
+
+    <script>
+        function showTab(tabId) {
+            var tabs = document.querySelectorAll('.tab-content');
+
+            tabs.forEach(function (tab) {
+                tab.style.display = 'none';
+            });
+
+            var selectedTab = document.getElementById(tabId);
+            selectedTab.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

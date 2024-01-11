@@ -1,0 +1,677 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav {
+    background-color: #00438C;
+
+}
+
+nav .container-fluid {
+    padding-right: 48px;
+    padding-left: 48px;
+}
+
+nav .masuk {
+    color: var(--Monochrome-White, #F9F9F9);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 0.54px;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+nav .mulai {
+    display: flex;
+    padding: 18px 24px 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Button-Button-Inactive, rgba(255, 255, 255, 0.20));
+
+    color: var(--Monochrome-White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 170%;
+    letter-spacing: 0.48px;
+}
+
+
+header {
+    background-image: url("../image/bg-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+header .text {
+    color: var(--Monochrome-White, #F9F9F9);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.44px;
+    padding-top: 114px;
+}
+
+
+
+/* design system */
+
+.sub-heading-medium {
+    color: var(--Blue-01, #B0D6FF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.54px;
+}
+
+.sub-heading-regular {
+    color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
+
+    /* Sub Heading Regular */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+    letter-spacing: 0.54px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--Secondary, #007AFF);
+    text-align: center;
+
+    /* Heading 1 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 1.44px;
+}
+
+h2 {
+    color: var(--Secondary, #007AFF);
+    text-align: center;
+
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 39.2px */
+    letter-spacing: 0.84px;
+}
+
+h3 {
+    color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
+    text-align: center;
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    /* 33.6px */
+    letter-spacing: 0.72px;
+}
+
+
+.body-bold {
+    color: #000;
+    text-align: center;
+
+    /* Body Bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
+.body-regular {
+    color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
+    text-align: center;
+
+    /* Body Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
+.sub-body-regular {
+    color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
+
+    /* Sub Body Regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 23.8px */
+    letter-spacing: 0.42px;
+}
+
+.sub-body-medium {
+    color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
+
+    /* Sub Body Medium */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    /* 23.8px */
+    letter-spacing: 0.42px;
+}
+
+.mulai2 {
+    display: flex;
+    width: 170px;
+    height: 60.26px;
+    padding: 18px 24px 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 4px;
+    border: 1px solid var(--Monochrome-White, #F9F9F9);
+
+    color: var(--Monochrome-White, #F9F9F9);
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 170%;
+}
+
+.aktif {
+    margin-top: 15px;
+    margin-left: 25px;
+    color: var(--Green-02, #5DD27A);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: 0.54px;
+}
+
+
+section {
+    padding-top: 100px;
+}
+
+/* Who We Are */
+#whoweare .sub-heading-medium {
+    color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
+}
+
+.counter {
+    width: 100%;
+    height: 192px;
+    padding: 0 67px 93px 67px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Container-padding, 10px);
+    flex-shrink: 0;
+
+    border-radius: 50px;
+    background: #F9F9F9;
+}
+
+.counter .row {
+    padding-left: 67px;
+    padding-right: 67px;
+}
+
+.mr-84 {
+    margin-right: 84px;
+}
+
+.counter .frame {
+    width: 234.75px;
+    height: 153px;
+    padding: 0px;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: 4px dashed var(--Teritery, #D254E2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Kenali Fitur */
+.sub-title-fitur {
+    padding-left: 231px;
+    padding-right: 231px;
+}
+
+/* komunitas */
+#komunitas .img-komunitas {
+    width: 77%;
+    height: 77%;
+}
+
+#komunitas .grup {
+    padding-top: 100px;
+}
+
+#komunitas .channel {
+    padding-left: 229px;
+    padding-right: 229px;
+}
+
+#komunitas .saluran-title {
+    padding-top: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+#komunitas .saluran-subtitle {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 253px;
+    padding-right: 253px;
+}
+
+#komunitas .img-saluran {
+    height: 250px;
+    width: 250px;
+    margin-right: 80px;
+}
+
+.jelajahi-saluran .row {
+    padding-top: 100px;
+}
+
+
+/* Siaran Langsung */
+#siaran-langsung .sub-body-regular {
+    text-align: center;
+}
+
+
+/* Catatan */
+#catatan .col-md-7 {
+    display: flex;
+    padding: 35px 37px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Container-padding, 10px);
+
+    background: var(--Monochrome-White, #F9F9F9);
+}
+
+#catatan .col-md-3 {
+    margin-left: 150px;
+}
+
+#catatan .col-md-3 h1,
+h3,
+.sub-body-regular {
+    text-align: left;
+}
+
+#catatan .col-md-3 h3 {
+    margin-top: 55px;
+    margin-bottom: 22px;
+}
+
+/* Profil */
+#profil h3 {
+    margin-left: 30px;
+}
+
+#profil .mulai {
+    display: flex;
+    padding: 18px 24px 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+
+    border-radius: 4px;
+    background: var(--Button-Button, #3395FF);
+    color: #FFF;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+/* notifikasi */
+#notifikasi h1 {
+    text-align: left;
+    margin-bottom: 55px;
+    margin-top: 20px;
+}
+
+#notifikasi .par2 {
+    margin-top: 24px;
+}
+
+
+/* Ulasan  */
+#ulasan h1 {
+    margin-bottom: 90px;
+}
+
+#ulasan .card {
+    width: 550px;
+    height: 248px;
+    border-radius: 20px;
+    background: var(--Monochrome-White, #F9F9F9);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    padding-left: 52.5px;
+    padding-right: 52.5px;
+    padding-top: 30px;
+}
+
+#ulasan .card1 {
+    margin-right: 150px;
+}
+
+
+#ulasan .card3 {
+    margin-top: 90px;
+    margin-right: 150px;
+}
+
+#ulasan .card4 {
+    margin-top: 90px;
+}
+
+footer {
+    margin-top: 100px;
+    background: var(--Primary, #00438C);
+}
+
+
+footer .body-regular {
+    text-align: left;
+    color: var(--Monochrome-White, #F9F9F9);
+    font-size: 14px;
+}
+
+footer .col-md-3 {
+    margin-right: 330px;
+}
+
+footer a {
+    color: #fff;
+    font-weight: 700;
+}
+
+footer .body-regular:hover {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.footer {
+    color: var(--Grey, #BEBEBE);
+
+    /* Sub Body Regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 23.8px */
+    letter-spacing: 0.42px;
+    margin-top: 30px;
+    padding-bottom: 150px;
+}
+
+footer .stroke {
+    width: 100%;
+}
+
+/* responsive mobile */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .body-bold {
+        text-align: justify;
+        font-weight: 500;
+    }
+
+    .body-regular {
+        text-align: justify;
+    }
+
+    nav .container-fluid {
+        padding-right: 6px;
+        padding-left: 12px;
+    }
+
+    nav .masuk {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    header {
+        margin-top: -1px;
+        height: fit-content;
+    }
+
+    header .text {
+        font-size: 32px;
+        padding-top: 50px;
+    }
+
+    nav .mulai {
+        margin-right: 0px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    header .aktif {
+        margin-left: 10px;
+        padding-bottom: 100px;
+        font-size: 16px;
+    }
+
+    .counter {
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+    .frame {
+        margin-top: 20px;
+    }
+
+    .counter .row {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #whoweare .sub-heading-medium {
+        text-align: justify;
+        font-size: 16px;
+        padding: 7px;
+    }
+
+    #fitur {
+        padding-top: 0;
+    }
+
+    .sub-title-fitur {
+        padding: 15px;
+        text-align: justify;
+    }
+
+    .sub-body-regular {
+        text-align: justify;
+        padding: 7px;
+    }
+
+    #komunitas {
+        padding-top: 15px;
+    }
+
+    #komunitas .img-komunitas {
+        width: 100%;
+        height: 100%;
+    }
+
+    #komunitas h2 {
+        padding-top: 50px;
+    }
+
+    #komunitas .channel {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #komunitas .grup2 {
+        padding-top: 20px;
+        width: 77%;
+        height: 77%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    #komunitas .saluran-title {
+        margin-top: -150px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    #komunitas .saluran-subtitle {
+        padding-top: 20px;
+        padding-left: 7px;
+        padding-right: 7px;
+        text-align: justify;
+    }
+
+    #komunitas .img-saluran {
+        height: 175px;
+        width: 175px;
+        margin-right: 0;
+    }
+
+    .jelajahi-saluran {
+        display: none;
+    }
+
+    #siaran-langsung .sub-body-regular {
+        text-align: justify;
+    }
+
+    #catatan .col-md-3 {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    #catatan .col-md-3 h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #catatan .col-md-3 h1,
+    h3,
+    .sub-body-regular {
+        padding: 7px;
+    }
+
+    .order1 {
+        order: 1;
+    }
+
+    .order2 {
+        order: 2;
+
+    }
+
+    .catatan1 {
+        margin-top: -30px;
+    }
+
+    #profil h3 {
+        margin-left: 7px;
+        font-size: 16px;
+    }
+
+    #profil .gambar-profil {
+        display: none;
+    }
+
+    #notifikasi h1 {
+        text-align: left;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    #notifikasi .par2 {
+        margin-top: 0;
+    }
+
+    #ulasan .row {
+        margin-top: -60px;
+    }
+
+    #ulasan .card {
+        width: 90%;
+        height: 90%;
+        border-radius: 20px;
+        background: var(--Monochrome-White, #F9F9F9);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(2px);
+        padding: 20px;
+        margin: auto;
+    }
+
+    #ulasan .sub-heading-medium {
+        text-align: justify;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    #ulasan .card2 {
+        margin-top: 20px;
+    }
+
+    #ulasan .card3 {
+        margin-top: 20px;
+    }
+
+    #ulasan .card4 {
+        margin-top: 20px;
+    }
+}
