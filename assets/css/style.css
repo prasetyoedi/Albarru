@@ -455,8 +455,128 @@ footer .stroke {
     width: 100%;
 }
 
+
+#login-register {
+    background-image: url("../image/bg-login.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#login-register .header {
+    margin-top: -60px;
+}
+
+#login-register .caption1 {
+    color: var(--Monochrome-White, #F9F9F9);
+    text-align: center;
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+    letter-spacing: 0.36px;
+}
+
+#login-register .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 513px;
+    padding: 40px 33px;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.10);
+}
+
+#login-register .card h3 {
+    color: var(--Blue-07, #0057B5);
+    text-align: center;
+}
+
+#login-register .card .caption {
+    color: #474749;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+#login-register .card-input {
+    padding-left: 50px;
+    margin-top: -10px;
+}
+
+#login-register .card-input input {
+    width: 309px;
+    height: 30px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 10px;
+    background: #F4F4F4;
+}
+
+#login-register .button {
+    display: flex;
+    width: 112px;
+    height: 36px;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Button-gap, 8px);
+    flex-shrink: 0;
+
+    border-radius: var(--Button-corner-radius, 8px);
+    background: var(--Button-normal, #007AFF);
+
+    /* Blur/20 */
+    backdrop-filter: blur(10px);
+    color: #fff;
+    margin: auto;
+}
+
+#login-register .button:hover {
+    scale: 1.1;
+}
+
+#login-register .button .masuk {
+    color: var(--Button-foreground, #FFF);
+
+    /* Body Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
 /* responsive mobile */
 @media screen and (max-width: 768px) {
+    #login-register .card {
+        width: 100%;
+        padding: 40px 33px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    #login-register .card-input {
+        padding-left: 0;
+    }
+
     h1 {
         font-size: 32px;
     }
