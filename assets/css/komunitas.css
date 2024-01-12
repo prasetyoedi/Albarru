@@ -16,6 +16,14 @@
     background: var(--Secondary, #007AFF);
     color: #fff;
     font-size: 16px;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.button1:hover {
+    background: #0056b3;
+    color: #fff;
+    transform: scale(1.05);
+
 }
 
 a {
@@ -90,6 +98,10 @@ h2 {
 }
 
 
+.lihat:hover {
+    font-weight: bold;
+}
+
 /* Siaran Langsung */
 #siaran-langsung .card {
     fill: var(--Monochrome-White, #F9F9F9);
@@ -110,6 +122,15 @@ h2 {
     background: var(--Teritery, #D254E2);
     margin-top: 13px;
     margin-left: 10px;
+
+    position: relative;
+    overflow: hidden;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#siaran-langsung .card .tag:hover {
+    background: #C12BDB;
+    box-shadow: 0px 0px 10px 0px rgba(194, 43, 219, 0.75);
 }
 
 #siaran-langsung .card .tag .caption {
@@ -124,6 +145,10 @@ h2 {
     margin-left: -12px;
 }
 
+/* .icon-siaran-langsung{
+    width: 65px;
+    height: 65px;
+} */
 
 .komunitas-content .search-container {
     display: flex;
@@ -258,6 +283,17 @@ h2 {
     letter-spacing: 0.54px;
 }
 
+.img-channel {
+    width: 65px;
+    height: 65px;
+}
+
+.img-list {
+    width: 65px;
+    height: 65px;
+}
+
+
 @media screen and (max-width: 768px) {
     .button1 {
         padding: 9px 16px;
@@ -273,7 +309,8 @@ h2 {
     }
 
     .img-list {
-        width: 100%;
+        width: 42px;
+        height: 42px;
     }
 
     .list-group .body-regular {
@@ -296,9 +333,10 @@ h2 {
     }
 
     .komunitas-content .col-md-7 {
-        margin-left: 0;
+        display: none;
+        /* margin-left: 0;
         height: 400px;
         gap: var(--Container-padding, 0px);
-        background: var(--Blue-00, #D7EAFF);
+        background: var(--Blue-00, #D7EAFF); */
     }
 }

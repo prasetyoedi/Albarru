@@ -118,6 +118,12 @@ html {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+#sidebar ul li a:hover {
+    background: #007AFF;
+    /* Warna latar belakang saat di-hover */
+    color: #fff;
+}
+
 #sidebar ul li a span {
     margin-right: 15px;
 }
@@ -185,8 +191,14 @@ html {
     -o-transition: all 0.3s;
     transition: all 0.3s;
     margin-top: -40px;
-    margin-left: -30px;
+    margin-left: -15px;
 }
+
+.icon-sidebar {
+    width: 50px;
+    height: 50px;
+}
+
 
 @media screen and (max-width: 768px) {
     #content {
@@ -194,4 +206,8 @@ html {
         margin-left: 0;
     }
 
+    .icon-sidebar {
+        width: 50px;
+        height: 50px;
+    }
 }
