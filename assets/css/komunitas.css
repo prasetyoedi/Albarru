@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button1 {
+    display: flex;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 4px;
+    background: var(--Secondary, #007AFF);
+    color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h2 {
+    color: var(--Blue-08, var(--Primary, #00438C));
+
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    /* 39.2px */
+    letter-spacing: 0.84px;
+}
+
+.sub-heading-medium {
+    color: var(--Blue-09, var(--Button-hover, #00336B));
+
+    /* Sub Heading Medium */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    /* 30.6px */
+    letter-spacing: 0.54px;
+}
+
+
+.sub-body-medium {
+    color: var(--Blue-07, #0057B5);
+
+    /* Sub Body Medium */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%;
+    /* 23.8px */
+    letter-spacing: 0.42px;
+}
+
+.body-bold {
+    color: #303030;
+
+    /* Body Bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
+.body-regular {
+    color: var(--Monochrome-01, #000);
+
+    /* Body Regular */
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
+
+/* Siaran Langsung */
+#siaran-langsung .card {
+    fill: var(--Monochrome-White, #F9F9F9);
+    stroke-width: 1px;
+    stroke: var(--Monochrome-04, rgba(0, 0, 0, 0.25));
+}
+
+#siaran-langsung .card .tag {
+    width: 165px;
+    height: 31px;
+    padding: 18px 24px 18px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+
+    border-radius: 20px;
+    background: var(--Teritery, #D254E2);
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+#siaran-langsung .card .tag .caption {
+    color: var(--Monochrome-White, #F9F9F9);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-left: -12px;
+}
+
+
+.komunitas-content .search-container {
+    display: flex;
+    width: 100%;
+    padding: 19px 21px;
+    background: var(--Blue-01, #B0D6FF);
+}
+
+.komunitas-content .search {
+    width: 100%;
+    margin-bottom: auto;
+    height: 50px;
+    background: var(--Blue-01, #B0D6FF);
+    padding: 10px;
+    border-radius: 5px;
+
+    border-radius: var(--Button-corner-radius, 8px);
+    border: 2px solid var(--Blue-06, #006FE8);
+}
+
+.komunitas-content .search-input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    margin-top: 5px;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.4s linear
+}
+
+.komunitas-content .search .search-input {
+    padding: 0 10px;
+    width: 100%;
+    caret-color: #536bf6;
+    font-size: 19px;
+    font-weight: 300;
+    color: black;
+    transition: width 0.4s linear;
+}
+
+.komunitas-content .search-input::placeholder {
+    color: var(--text-secondary, #4A5A67);
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.komunitas-content .search-icon {
+    height: 34px;
+    width: 34px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    bottom: 30px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.komunitas-content .search-icon:hover {
+    color: #fff !important;
+}
+
+.komunitas-content .filter {
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.list-group .caption {
+    color: var(--Monochrome-01, #000);
+
+    /* Caption */
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+    letter-spacing: 0.36px;
+}
+
+.komunitas-content .col-md-7 {
+    margin-left: -12px;
+    height: 1034px;
+    gap: var(--Container-padding, 0px);
+    background: var(--Blue-00, #D7EAFF);
+}
+
+.card-welcome {
+    width: 593px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: var(--Blue-01, #B0D6FF);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 58px;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+.card-welcome .title {
+    color: var(--Primary, #00438C);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 40px */
+    letter-spacing: 1.2px;
+}
+
+.card-welcome .sub-title {
+    color: var(--Primary, #00438C);
+
+    /* Sub Heading Regular */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 30.6px */
+    letter-spacing: 0.54px;
+}
+
+@media screen and (max-width: 768px) {
+    .button1 {
+        padding: 9px 16px;
+        font-size: 12px;
+    }
+
+    #siaran-langsung .card {
+        margin-bottom: 15px;
+    }
+
+    .komunitas-content .search-container {
+        width: auto;
+    }
+
+    .img-list {
+        width: 100%;
+    }
+
+    .list-group .body-regular {
+        font-size: 12px;
+    }
+
+    .card-welcome {
+        width: auto;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px;
+    }
+
+    .card-welcome .title {
+        font-size: 24px;
+    }
+
+    .card-welcome .sub-title {
+        font-size: 16px;
+    }
+
+    .komunitas-content .col-md-7 {
+        margin-left: 0;
+        height: 400px;
+        gap: var(--Container-padding, 0px);
+        background: var(--Blue-00, #D7EAFF);
+    }
+}
