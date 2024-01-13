@@ -21,3 +21,8 @@
       --n: var(--to);
     }
   }
+
+.col-md-7.order2.scroll4 {
+    border-radius: 10px;
+    border: 1px solid var(--Grey, #BEBEBE);
+}
