@@ -60,7 +60,7 @@ header {
     background-position: center;
     height: 100%;
     width: 100%;
-    
+
 }
 
 header .text {
@@ -72,7 +72,7 @@ header .text {
     line-height: 140%;
     letter-spacing: 1.44px;
     padding-top: 114px;
-    
+
 }
 
 
@@ -287,8 +287,8 @@ section {
 
 /* komunitas */
 #komunitas .img-komunitas {
-    width: auto;
-    height: 645px;
+    width: 80%;
+    height: 85%;
 }
 
 #komunitas .grup {
@@ -372,13 +372,13 @@ h3,
 }
 
 /* notifikasi */
-#notifikasi h1 {
+#notifikasi-ruang h1 {
     text-align: left;
     margin-bottom: 55px;
     margin-top: 20px;
 }
 
-#notifikasi .par2 {
+#notifikasi-ruang .par2 {
     margin-top: 24px;
 }
 
