@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Buat Catatan</title>
+    <link rel="icon" href="assets/image/fav-icon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/catatan.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <style>
+        .nav-tabs {
+            margin-bottom: 15px;
+        }
+
+        .tab-content {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar" class="active">
+            <a href="index.html" class="logo"><img src="assets/image/logo-komunitas.png" alt="Logo Albarru"></a>
+            <ul class="list-unstyled components mb-5">
+                <li>
+                    <a href="#"><img src="assets/image/icon/komunitas.svg" alt="icon komunitas" class="icon-sidebar">
+                        Komunitas</a>
+                </li>
+                <li>
+                    <a href="#"> <img src="assets/image/icon/catatan.svg" alt="icon catatan" class="icon-sidebar">
+                        Catatan</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/image/icon/notif.svg" alt="icon notifikasi" class="icon-sidebar">
+                        Notifikasi</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/image/icon/profil.svg" alt="icon profil" class="icon-sidebar">
+                        Profil</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <div class="container-fluid container-fluid1">
+                    <div class="d-flex">
+                        <button type="button" id="sidebarCollapse" class="btn btn-outline-primary">
+                            <i class="fa fa-bars"></i>
+                            <span class="sr-only">Toggle Menu</span>
+                        </button>
+                        <h2 class="ms-3">
+                            Buat Catatan
+                        </h2>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="profil">
+                <div class="buat-catatan">
+                    <div class="row mt-5">
+                        <div class="col-md-10">
+                            <form>
+                                <div class="form-group row">
+                                    <label for="username" class="col-2 col-form-label body-bold list">Judul</label>
+                                    <div class="col-8">
+                                        <input type="text" class="form-control" id="username">
+                                    </div>
+                                </div>
+                                <fieldset class="form-group mt-5">
+                                    <div class="row">
+                                        <legend class="col-form-label col-2 pt-0 body-bold list">Kategori</legend>
+                                        <div class="col-8">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios1" value="option1" checked>
+                                                        <label class="form-check-label" for="gridRadios1">
+                                                            Bulan Ramadhan
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios2" value="option2">
+                                                        <label class="form-check-label" for="gridRadios2">
+                                                            Sejarah Peradaban Islam
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios1" value="option1">
+                                                        <label class="form-check-label" for="gridRadios1">
+                                                            Al-Quran dan Tafsir
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios2" value="option2">
+                                                        <label class="form-check-label" for="gridRadios2">
+                                                            Hadis dan Sunnah
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios1" value="option1">
+                                                        <label class="form-check-label" for="gridRadios1">
+                                                            Dakwah Komunikasi Islam
+                                                        </label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox"
+                                                            name="gridRadios" id="gridRadios2" value="option2">
+                                                        <label class="form-check-label" for="gridRadios2">
+                                                            Fiqh Kontemporer
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <div class="form-group row mt-5">
+                                    <label for="username" class="col-2 col-form-label body-bold list">Deskripsi</label>
+                                    <div class="col-8">
+                                        <div class="row">
+                                            <div class="col-8"><textarea class="form-control"
+                                                    id="exampleFormControlTextarea1" rows="8"></textarea></div>
+                                            <div class="col-4">
+                                                <div class="d-flex">
+                                                    <img src="assets/image/profil/unggah-gambar.png" alt="unggah gambar"
+                                                        class="gambar-unggah">
+                                                    <div class="caption ms-3">
+                                                        Unggah Gambar
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex mt-3">
+                                                    <img src="assets/image/profil/unggah-video.png" alt="unggah video"
+                                                        class="gambar-unggah">
+                                                    <div class="caption ms-3">
+                                                        Unggah Video
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <button class="btn btn-primary mt-5">Kirim</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

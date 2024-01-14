@@ -23,7 +23,6 @@
     background: #0056b3;
     color: #fff;
     transform: scale(1.05);
-
 }
 
 a {
@@ -33,67 +32,50 @@ a {
 
 h2 {
     color: var(--Blue-08, var(--Primary, #00438C));
-
-    /* Heading 2 */
-    font-family: Poppins;
     font-size: 28px;
-    font-style: normal;
     font-weight: 700;
     line-height: 140%;
-    /* 39.2px */
     letter-spacing: 0.84px;
+}
+
+h3 {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 0.72px;
 }
 
 .sub-heading-medium {
     color: var(--Blue-09, var(--Button-hover, #00336B));
-
-    /* Sub Heading Medium */
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
-    /* 30.6px */
     letter-spacing: 0.54px;
 }
 
 
 .sub-body-medium {
     color: var(--Blue-07, #0057B5);
-
-    /* Sub Body Medium */
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
-    /* 23.8px */
     letter-spacing: 0.42px;
 }
 
 .body-bold {
     color: #303030;
-
-    /* Body Bold */
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 700;
     line-height: 170%;
-    /* 27.2px */
     letter-spacing: 0.48px;
 }
 
 .body-regular {
     color: var(--Monochrome-01, #000);
-
-    /* Body Regular */
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 27.2px */
     letter-spacing: 0.48px;
 }
 
@@ -135,11 +117,7 @@ h2 {
 
 #siaran-langsung .card .tag .caption {
     color: var(--Monochrome-White, #F9F9F9);
-
-    /* Caption */
-    font-family: Poppins;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     margin-top: -10px;
     margin-left: -12px;
@@ -193,7 +171,6 @@ h2 {
 
 .komunitas-content .search-input::placeholder {
     color: var(--text-secondary, #4A5A67);
-    font-family: Poppins;
     font-size: 15px;
     font-weight: 300;
 }
@@ -227,14 +204,9 @@ h2 {
 
 .list-group .caption {
     color: var(--Monochrome-01, #000);
-
-    /* Caption */
-    font-family: Poppins;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 18px */
     letter-spacing: 0.36px;
 }
 
@@ -261,25 +233,17 @@ h2 {
 
 .card-welcome .title {
     color: var(--Primary, #00438C);
-    font-family: Poppins;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 100%;
-    /* 40px */
     letter-spacing: 1.2px;
 }
 
 .card-welcome .sub-title {
     color: var(--Primary, #00438C);
-
-    /* Sub Heading Regular */
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 30.6px */
     letter-spacing: 0.54px;
 }
 
@@ -338,158 +302,5 @@ h2 {
         height: 400px;
         gap: var(--Container-padding, 0px);
         background: var(--Blue-00, #D7EAFF); */
-    }
-}
-
-
-
-/* Catatan */
-/* #catatan h2 {
-    border-bottom: 2px solid var(--Blue-01, #B0D6FF);
-    background: var(--Monochrome-White, #F9F9F9);
-} */
-
-#catatan .judul {
-    border-bottom: 5px solid var(--Blue-09, #00336B);
-}
-
-#catatan .rekomendasi {
-    width: 366px;
-    height: 545px;
-    flex-shrink: 0;
-    border-radius: var(--Button-corner-radius, 8px);
-    background: var(--Blue-00, #D7EAFF);
-    margin-top: 5px;
-
-    padding-top: 16px;
-    padding-left: 13px;
-}
-
-#catatan .akun {
-    width: 40px;
-    height: 40px;
-}
-
-#catatan .btn-ikuti {
-    display: flex;
-    width: 88px;
-    height: 28px;
-    padding: 5px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-
-    border-radius: 8px;
-    background: var(--Purple-02, #D254E2);
-    color: #fff;
-    margin-left: 24px;
-    transition: background 0.3s ease, color 0.3s ease;
-}
-
-#catatan .btn-ikuti:hover {
-    background: #C12BDB;
-    color: #fff;
-}
-
-.body-semi-bold {
-    color: var(--Blue-09, var(--Button-hover, #00336B));
-
-    /* Body Semi Bold */
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 170%;
-    /* 27.2px */
-    letter-spacing: 0.48px;
-}
-
-.sub-heading-regular {
-    color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
-
-    /* Sub Heading Regular */
-    font-family: Poppins;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 170%;
-    /* 30.6px */
-    letter-spacing: 0.54px;
-}
-
-.sub-body-regular {
-    color: #000;
-
-    /* Sub Body Regular */
-    font-family: Poppins;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 170%;
-    /* 23.8px */
-    letter-spacing: 0.42px;
-}
-
-.caption {
-    color: #000;
-
-    /* Caption */
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    /* 18px */
-    letter-spacing: 0.36px;
-}
-
-#catatan .tag {
-    display: flex;
-    padding: 5px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 8px;
-    background: var(--Blue-00, #D7EAFF);
-}
-
-#catatan .catatan-card {
-    border-bottom: 1px solid var(--Blue-01, #B0D6FF);
-}
-
-.policy {
-    padding-right: 100px;
-}
-
-@media screen and (max-width: 768px) {
-    #catatan .rekomendasi {
-        width: 100%;
-        height: 100%;
-    }
-
-    #catatan .sub-heading-medium {
-        font-size: 14px;
-    }
-
-    #catatan .sub-heading-regular {
-        font-size: 10px;
-    }
-
-    .tandai {
-        width: 24px;
-    }
-
-    .more {
-        width: 18px;
-    }
-
-    .policy {
-        padding-right: 0;
-    }
-
-    .btn-ikuti {
-        width: 80%;
-        margin-right: 10px;
     }
 }
