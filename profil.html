@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Halaman Profil Pengguna</title>
+    <link rel="icon" href="assets/image/fav-icon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/catatan.css">
+    <link rel="stylesheet" href="assets/css/sidebar.css">
+    <style>
+        .nav-tabs {
+            margin-bottom: 15px;
+        }
+
+        .tab-content {
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper d-flex align-items-stretch">
+        <nav id="sidebar" class="active">
+            <a href="index.html" class="logo"><img src="assets/image/logo-komunitas.png" alt="Logo Albarru"></a>
+            <ul class="list-unstyled components mb-5">
+                <li>
+                    <a href="#"><img src="assets/image/icon/komunitas.svg" alt="icon komunitas" class="icon-sidebar">
+                        Komunitas</a>
+                </li>
+                <li>
+                    <a href="#"> <img src="assets/image/icon/catatan.svg" alt="icon catatan" class="icon-sidebar">
+                        Catatan</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/image/icon/notif.svg" alt="icon notifikasi" class="icon-sidebar">
+                        Notifikasi</a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/image/icon/profil.svg" alt="icon profil" class="icon-sidebar">
+                        Profil</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Page Content  -->
+        <div id="content" class="p-4 p-md-5">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+                <div class="container-fluid">
+                    <div class="d-flex">
+                        <button type="button" id="sidebarCollapse" class="btn btn-outline-primary">
+                            <i class="fa fa-bars"></i>
+                            <span class="sr-only">Toggle Menu</span>
+                        </button>
+                        <h2 class="ms-3">
+                            Profil
+                        </h2>
+                    </div>
+                    <a href="#">
+                        <div class="button1">Keluar <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                viewBox="0 0 24 25" fill="none">
+                                <path
+                                    d="M5 21.5C4.45 21.5 3.97933 21.3043 3.588 20.913C3.19667 20.5217 3.00067 20.0507 3 19.5V5.5C3 4.95 3.196 4.47933 3.588 4.088C3.98 3.69667 4.45067 3.50067 5 3.5H12V5.5H5V19.5H12V21.5H5ZM16 17.5L14.625 16.05L17.175 13.5H9V11.5H17.175L14.625 8.95L16 7.5L21 12.5L16 17.5Z"
+                                    fill="#F9F9F9" />
+                            </svg></div>
+                    </a>
+                </div>
+            </nav>
+            <div id="catatan" class="mt-3">
+                <div class="row">
+                    <div class="col-md-8 order2">
+                        <div class="container">
+                            <ul class="nav nav-tabs" id="myTabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab"
+                                        aria-controls="tab1" aria-selected="true">Postingan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab"
+                                        aria-controls="tab2" aria-selected="false">Tersimpan</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tab1" role="tabpanel"
+                                    aria-labelledby="tab1-tab">
+                                    <div class="catatan-card pt-2">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/1.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah
+                                                        Al-Kautsar -
+                                                        Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sub-body-regular pb-4">
+                                                    Surat Al-Kautsar menjadi salah satu surat pendek yang bisa dibaca
+                                                    saat
+                                                    sholat. Surat ke-108 dalam Al-Qur'an ini menjadi surat yang paling
+                                                    pendek di
+                                                    antara surat lainnya. Surat Al-Kautsar...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/2.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah An-Nas -
+                                                        Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah An-Nas adalah surah penutup dalam Al-Qur'an. Nama An-Nas
+                                                    diambil dari kata An-Nas yang berulang kali disebut dalam surah ini
+                                                    yang berarti manusia. Surah ini termasuk dalam golongan surah....
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/3.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah
+                                                        Al-Ikhlas - Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah Al-Ikhlas, disebut juga sebagai Surah at-Tauhid bahasa Arab:
+                                                    التوحيد, translit. At-Tauḥīd, har. 'Keesaan', adalah salah satu
+                                                    surah di dalam al-Qur'an yang isi ayatnya membahas mengenai konsep
+                                                    ketu..
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/4.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah Al-Ma’un
+                                                        - Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah Al-Ma'un adalah surah ke-107 dalam Al-Qur'an. Surah ini
+                                                    tergolong surah Makkiyah dan terdiri atas 7 ayat.Kata Al Maa'uun
+                                                    sendiri berarti bantuan penting atau hal-hal berguna, diambil dari
+                                                    ayat terakhir dari...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                                    <div class="catatan-card pt-2">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/1.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah
+                                                        Al-Kautsar -
+                                                        Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+
+                                                <div class="sub-body-regular pb-4">
+                                                    Surat Al-Kautsar menjadi salah satu surat pendek yang bisa dibaca
+                                                    saat
+                                                    sholat. Surat ke-108 dalam Al-Qur'an ini menjadi surat yang paling
+                                                    pendek di
+                                                    antara surat lainnya. Surat Al-Kautsar...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/2.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah An-Nas -
+                                                        Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah An-Nas adalah surah penutup dalam Al-Qur'an. Nama An-Nas
+                                                    diambil dari kata An-Nas yang berulang kali disebut dalam surah ini
+                                                    yang berarti manusia. Surah ini termasuk dalam golongan surah....
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/3.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah
+                                                        Al-Ikhlas - Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah Al-Ikhlas, disebut juga sebagai Surah at-Tauhid bahasa Arab:
+                                                    التوحيد, translit. At-Tauḥīd, har. 'Keesaan', adalah salah satu
+                                                    surah di dalam al-Qur'an yang isi ayatnya membahas mengenai konsep
+                                                    ketu..
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="catatan-card pt-4">
+                                        <div class="row">
+                                            <div class="col-md-3 order2">
+                                                <img src="assets/image/profil/4.png" alt="Gambar Intisari Surah
+                                                Al-Kautsar" class="img-fluid gambar-postingan">
+                                            </div>
+                                            <div class="col-md-9 order1">
+                                                <div class="row mt-4">
+                                                    <h2 style="color: #000;" class="mt-2 col-10">Intisari Surah Al-Ma’un
+                                                        - Mondate Qur’an Review</h2>
+                                                    <div class="col-2 text-end">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="6"
+                                                            class="more" viewBox="0 0 21 6" fill="none">
+                                                            <path
+                                                                d="M2.34375 5.1875C1.72215 5.1875 1.12601 4.94057 0.686469 4.50103C0.24693 4.06149 0 3.46535 0 2.84375C0 2.22215 0.24693 1.62601 0.686469 1.18647C1.12601 0.74693 1.72215 0.5 2.34375 0.5C2.96535 0.5 3.56149 0.74693 4.00103 1.18647C4.44057 1.62601 4.6875 2.22215 4.6875 2.84375C4.6875 3.46535 4.44057 4.06149 4.00103 4.50103C3.56149 4.94057 2.96535 5.1875 2.34375 5.1875ZM10.1562 5.1875C9.53465 5.1875 8.93851 4.94057 8.49897 4.50103C8.05943 4.06149 7.8125 3.46535 7.8125 2.84375C7.8125 2.22215 8.05943 1.62601 8.49897 1.18647C8.93851 0.74693 9.53465 0.5 10.1562 0.5C10.7779 0.5 11.374 0.74693 11.8135 1.18647C12.2531 1.62601 12.5 2.22215 12.5 2.84375C12.5 3.46535 12.2531 4.06149 11.8135 4.50103C11.374 4.94057 10.7779 5.1875 10.1562 5.1875ZM17.9688 5.1875C17.3471 5.1875 16.751 4.94057 16.3115 4.50103C15.8719 4.06149 15.625 3.46535 15.625 2.84375C15.625 2.22215 15.8719 1.62601 16.3115 1.18647C16.751 0.74693 17.3471 0.5 17.9688 0.5C18.5904 0.5 19.1865 0.74693 19.626 1.18647C20.0656 1.62601 20.3125 2.22215 20.3125 2.84375C20.3125 3.46535 20.0656 4.06149 19.626 4.50103C19.1865 4.94057 18.5904 5.1875 17.9688 5.1875Z"
+                                                                fill="#2E2D38" />
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="sub-body-regular pb-4">
+                                                    Surah Al-Ma'un adalah surah ke-107 dalam Al-Qur'an. Surah ini
+                                                    tergolong surah Makkiyah dan terdiri atas 7 ayat.Kata Al Maa'uun
+                                                    sendiri berarti bantuan penting atau hal-hal berguna, diambil dari
+                                                    ayat terakhir dari...
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 profil-akun order1">
+                        <div class="profil-user">
+                            <div class="d-flex akun-detail">
+                                <img src="assets/image/profil/akun.png" alt="Gambar Aisa Selvira"
+                                    class="gambar-profil-user">
+                                <spam class="ms-3 vir">
+                                    <h3>Aisa Selvira</h3>
+                                    <span class="body-regular">
+                                        aisaselvira_
+                                    </span>
+                                    <br>
+                                    <span class="body-regular">
+                                        Admin Muslim United
+                                    </span>
+                                </spam>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="sub-heading-regular1">100 <span style="color: #000;">Teman</span></div>
+                            <div class="sub-heading-regular1 ms-5">30 <span style="color: #000;">Komunitas</span></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="profil-card">
+                                    <div class="body-semi-bold mt-2">
+                                        Postingan
+                                    </div>
+                                    <div class="d-flex" style="align-items: center; gap: 5px;">
+                                        <div
+                                            style="width: 3px; height: 34px;border-radius: 10px;background: var(--Primary, #00438C);">
+                                        </div>
+                                        <h2 class="mt-2" style="color: var(--Teritery, #D254E2);">50</h2>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.0776 2.10525L17.1464 2.12401C18.2922 2.4313 19.1995 2.67401 19.913 2.93234C20.6432 3.19588 21.2391 3.49692 21.7297 3.9563C22.4438 4.62559 22.9433 5.49162 23.1651 6.44484C23.3182 7.099 23.2818 7.76567 23.1443 8.52921C23.012 9.27713 22.7693 10.1844 22.462 11.3292L21.9037 13.4115C21.5974 14.5563 21.3537 15.4636 21.0964 16.1782C20.8318 16.9073 20.5307 17.5032 20.0714 17.9938C19.4239 18.6851 18.5917 19.1761 17.6735 19.4084C17.4044 20.0252 17.0124 20.5806 16.5214 21.0407C16.0307 21.5 15.4349 21.8011 14.7047 22.0657C13.9912 22.324 13.0839 22.5667 11.9391 22.874L11.8693 22.8928C10.7235 23.199 9.8172 23.4417 9.06929 23.5761C8.30574 23.7125 7.63908 23.749 6.98387 23.5969C6.03078 23.3743 5.16511 22.8741 4.49637 22.1594C4.03804 21.6698 3.73595 21.074 3.47137 20.3438C3.21408 19.6303 2.97137 18.723 2.66408 17.5771L2.10574 15.4959C1.79949 14.35 1.55574 13.4438 1.42241 12.6959C1.28595 11.9323 1.24949 11.2657 1.40158 10.6105C1.62417 9.65737 2.12443 8.7917 2.83908 8.12296C3.32866 7.66463 3.92449 7.36255 4.6547 7.09796C5.36824 6.84067 6.27554 6.59796 7.42033 6.29067L7.45574 6.28025L8.23804 6.07192C8.64637 4.61463 9.0047 3.58442 9.7047 2.83755C10.3736 2.12328 11.2392 1.6234 12.1922 1.40109C12.8474 1.24901 13.513 1.28546 14.2776 1.42192C15.0245 1.55526 15.9318 1.799 17.0776 2.10525ZM7.76616 7.81567C6.62762 8.12088 5.81199 8.34171 5.18491 8.56776C4.54949 8.79692 4.17762 9.00942 3.90679 9.26359C3.41788 9.72121 3.07567 10.3135 2.92345 10.9657C2.84012 11.3282 2.84116 11.7573 2.96095 12.4209C3.08074 13.0948 3.30679 13.9386 3.62449 15.1261L4.16408 17.1386C4.48179 18.3261 4.70887 19.1698 4.94116 19.8125C5.17033 20.448 5.38283 20.8209 5.63699 21.0917C6.09461 21.5806 6.68695 21.9228 7.33908 22.075C7.70054 22.1584 8.13074 22.1563 8.79429 22.0375C9.46824 21.9178 10.312 21.6917 11.4995 21.374C12.687 21.0553 13.5307 20.8292 14.1745 20.5959C14.8089 20.3667 15.1818 20.1542 15.4526 19.9011C15.5964 19.7657 15.7266 19.6198 15.8443 19.4646C15.651 19.437 15.4586 19.404 15.2672 19.3657C14.5672 19.2261 13.7255 19.0011 12.6891 18.723L12.6287 18.7073C11.4839 18.4 10.5766 18.1573 9.86304 17.899C9.13283 17.6355 8.53699 17.3344 8.04637 16.875C7.33193 16.2059 6.83203 15.3398 6.60991 14.3865C6.45783 13.7323 6.49429 13.0657 6.63074 12.3021C6.76408 11.5542 7.00783 10.6469 7.31408 9.50213L7.76616 7.81567ZM14.0026 2.96046C13.338 2.84067 12.9089 2.83859 12.5474 2.92296C11.8953 3.07518 11.3029 3.41739 10.8453 3.9063C10.3912 4.39067 10.111 5.14067 9.62554 6.91984C9.54637 7.20942 9.46304 7.52088 9.37241 7.85942L8.83283 9.87192C8.51512 11.0594 8.28908 11.9032 8.16929 12.5771C8.04949 13.2407 8.04741 13.6709 8.13179 14.0323C8.28401 14.6845 8.62621 15.2768 9.11512 15.7344C9.38595 15.9886 9.75887 16.2 10.3932 16.4303C11.037 16.6625 11.8807 16.8886 13.0682 17.2073C14.136 17.4938 14.9276 17.7053 15.5714 17.8323C16.212 17.9605 16.6474 17.9917 17.0037 17.948C17.0818 17.9375 17.1557 17.925 17.2287 17.9084C17.8808 17.7562 18.4731 17.4139 18.9307 16.925C19.1849 16.6542 19.3974 16.2813 19.6266 15.6469C19.8589 15.0032 20.0849 14.1594 20.4037 12.9719L20.9432 10.9594C21.261 9.77192 21.487 8.92817 21.6068 8.25421C21.7255 7.59067 21.7287 7.16046 21.6443 6.799C21.4921 6.14688 21.1499 5.55454 20.661 5.09692C20.3901 4.84276 20.0172 4.6313 19.3828 4.40109C18.738 4.1688 17.8953 3.94275 16.7078 3.62401C15.5203 3.3063 14.6766 3.08026 14.0026 2.96046ZM11.513 10.2146C11.5396 10.1155 11.5855 10.0226 11.648 9.94121C11.7105 9.85982 11.7884 9.79154 11.8773 9.74027C11.9662 9.689 12.0643 9.65575 12.1661 9.64241C12.2678 9.62908 12.3712 9.63592 12.4703 9.66255L17.5016 11.0105C17.6962 11.069 17.8603 11.201 17.9592 11.3785C18.058 11.556 18.0838 11.7651 18.0311 11.9613C17.9784 12.1576 17.8513 12.3255 17.6768 12.4296C17.5023 12.5337 17.2941 12.5657 17.0964 12.5188L12.0651 11.1709C11.8652 11.1172 11.6947 10.9863 11.5912 10.807C11.4877 10.6277 11.4596 10.4146 11.513 10.2146ZM10.7037 13.2334C10.7302 13.1341 10.7761 13.0411 10.8387 12.9597C10.9013 12.8782 10.9793 12.8099 11.0683 12.7586C11.1573 12.7073 11.2556 12.6741 11.3575 12.6608C11.4593 12.6476 11.5628 12.6545 11.662 12.6813L14.6797 13.4896C14.8799 13.5432 15.0505 13.6741 15.1542 13.8536C15.2578 14.033 15.2859 14.2462 15.2323 14.4464C15.1787 14.6466 15.0478 14.8172 14.8684 14.9209C14.6889 15.0245 14.4757 15.0526 14.2755 14.999L11.2568 14.1896C11.0568 14.1359 10.8864 14.005 10.7829 13.8257C10.6794 13.6464 10.6512 13.4334 10.7047 13.2334"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="profil-card">
+                                    <div class="body-semi-bold mt-2">
+                                        Apresiasi
+                                    </div>
+                                    <div class="d-flex" style="align-items: center; gap: 5px;">
+                                        <div
+                                            style="width: 3px; height: 34px;border-radius: 10px;background: var(--Primary, #00438C);">
+                                        </div>
+                                        <h2 class="mt-2" style="color: var(--Teritery, #D254E2);">420</h2>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25"
+                                            viewBox="0 0 20 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.628173 13.5576C0.449055 13.3632 0.308501 13.1341 0.214535 12.8833C0.120568 12.6324 0.0750308 12.3648 0.0805217 12.0957C0.0860125 11.8266 0.142424 11.5612 0.246536 11.3148C0.350648 11.0683 0.500421 10.8456 0.687305 10.6593C0.874188 10.4731 1.09452 10.3269 1.33572 10.2292C1.57693 10.1315 1.83428 10.0841 2.09308 10.0898C2.35188 10.0955 2.60706 10.1542 2.84407 10.2625C3.08107 10.3707 3.29524 10.5265 3.47436 10.7208L7.10896 14.6671C7.16866 14.7319 7.21551 14.8083 7.24684 14.8919C7.27816 14.9755 7.29334 15.0647 7.29151 15.1544C7.28968 15.2441 7.27087 15.3326 7.23617 15.4147C7.20146 15.4969 7.15154 15.5711 7.08925 15.6332C7.02695 15.6953 6.95351 15.744 6.87311 15.7766C6.79271 15.8091 6.70692 15.8249 6.62066 15.823C6.53439 15.8211 6.44933 15.8016 6.37033 15.7655C6.29133 15.7294 6.21993 15.6775 6.16023 15.6127L2.52563 11.6664C2.40505 11.5356 2.23943 11.4599 2.0652 11.4561C1.89098 11.4522 1.72242 11.5205 1.59661 11.6459C1.4708 11.7713 1.39805 11.9435 1.39435 12.1247C1.39065 12.3059 1.45632 12.4811 1.5769 12.612L5.21282 16.5583C5.3334 16.6891 5.39906 16.8644 5.39537 17.0456C5.39167 17.2267 5.31891 17.399 5.1931 17.5243C5.0673 17.6497 4.89874 17.718 4.72451 17.7142C4.55029 17.7103 4.38467 17.6347 4.26409 17.5039L0.628173 13.5576Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M1.617 10.6801C1.4326 10.4869 1.28705 10.2574 1.18885 10.0051C1.09065 9.75271 1.04178 9.48256 1.04508 9.21036C1.04838 8.93816 1.10379 8.66938 1.20807 8.41969C1.31235 8.17 1.46341 7.94441 1.65245 7.7561C1.84148 7.56779 2.06469 7.42051 2.30905 7.32288C2.55341 7.22525 2.81403 7.17922 3.07568 7.18746C3.33734 7.19571 3.59479 7.25808 3.83302 7.37092C4.07125 7.48376 4.28547 7.64483 4.46319 7.8447L8.0991 11.791C8.21968 11.9218 8.28535 12.0971 8.28165 12.2783C8.27795 12.4595 8.2052 12.6317 8.07939 12.7571C7.95358 12.8825 7.78502 12.9508 7.6108 12.9469C7.43657 12.9431 7.27095 12.8674 7.15037 12.7366L3.51446 8.78892C3.39388 8.65809 3.22826 8.58243 3.05403 8.57859C2.87981 8.57474 2.71125 8.64303 2.58544 8.76842C2.45963 8.89381 2.38688 9.06604 2.38318 9.24721C2.37948 9.42839 2.44515 9.60367 2.56573 9.7345L6.20164 13.6808C6.32223 13.8116 6.38789 13.9869 6.3842 14.1681C6.3805 14.3493 6.30774 14.5215 6.18193 14.6469C6.05613 14.7723 5.88757 14.8406 5.71334 14.8367C5.53912 14.8329 5.3735 14.7572 5.25292 14.6264L1.617 10.6801Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M4.42377 9.77594C4.23634 9.58341 4.08793 9.35375 3.98731 9.10055C3.88669 8.84736 3.8359 8.57575 3.83795 8.30179C3.84 8.02783 3.89484 7.75708 3.99924 7.50554C4.10364 7.254 4.25547 7.02678 4.44576 6.8373C4.63605 6.64783 4.86093 6.49994 5.10712 6.40239C5.35332 6.30485 5.61581 6.25961 5.8791 6.26937C6.14239 6.27912 6.40113 6.34366 6.64002 6.45918C6.87892 6.5747 7.09311 6.73885 7.26995 6.94192L11.3645 11.3842C11.4242 11.4491 11.471 11.5256 11.5023 11.6093C11.5336 11.693 11.5487 11.7822 11.5468 11.872C11.5449 11.9618 11.5261 12.0503 11.4913 12.1325C11.4565 12.2147 11.4065 12.2889 11.3441 12.351C11.2817 12.4131 11.2082 12.4618 11.1277 12.4943C11.0472 12.5269 10.9614 12.5426 10.875 12.5406C10.7887 12.5387 10.7036 12.519 10.6246 12.4829C10.5455 12.4467 10.4741 12.3947 10.4144 12.3298L6.32123 7.88614C6.26152 7.82136 6.19013 7.76944 6.11113 7.73336C6.03213 7.69727 5.94707 7.67771 5.8608 7.67581C5.68657 7.67197 5.51802 7.74025 5.39221 7.86564C5.2664 7.99104 5.19364 8.16326 5.18995 8.34444C5.18625 8.52561 5.25192 8.70089 5.3725 8.83172L9.00841 12.7767C9.07162 12.8407 9.12177 12.9173 9.1559 13.0019C9.19002 13.0865 9.20741 13.1773 9.20702 13.2691C9.20664 13.3608 9.18849 13.4516 9.15366 13.5358C9.11883 13.6201 9.06803 13.6963 9.00429 13.7597C8.94055 13.8231 8.86518 13.8726 8.78268 13.9051C8.70017 13.9375 8.61222 13.9524 8.52406 13.9488C8.43591 13.9452 8.34936 13.9231 8.26957 13.884C8.18979 13.8448 8.11841 13.7893 8.05968 13.7209L4.42377 9.77594Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M9.78966 9.49996C9.6853 8.97602 9.76992 8.43047 10.0274 7.96722C10.2849 7.50398 10.6973 7.15541 11.1859 6.98794C11.6746 6.82046 12.2055 6.84577 12.6774 7.05904C13.1493 7.27231 13.5292 7.65865 13.7449 8.14445L14.7304 10.3718C14.7664 10.4534 14.7865 10.5416 14.7897 10.6314C14.7929 10.7211 14.7791 10.8106 14.749 10.8948C14.7189 10.979 14.6732 11.0562 14.6144 11.122C14.5557 11.1879 14.485 11.241 14.4065 11.2784C14.328 11.3158 14.2432 11.3368 14.1568 11.3401C14.0705 11.3434 13.9844 11.329 13.9035 11.2978C13.8225 11.2665 13.7483 11.2189 13.685 11.1578C13.6217 11.0967 13.5706 11.0232 13.5346 10.9416L12.5517 8.71289C12.4723 8.52991 12.3306 8.38395 12.1539 8.30311C11.9772 8.22227 11.778 8.21228 11.5946 8.27505C11.4113 8.33782 11.2567 8.46891 11.1607 8.6431C11.0648 8.81728 11.0341 9.02222 11.0748 9.21848L11.5951 11.8038C11.6307 11.9812 11.597 12.166 11.5015 12.3176C11.406 12.4692 11.2565 12.5751 11.086 12.612C10.9154 12.649 10.7376 12.614 10.5919 12.5147C10.4461 12.4154 10.3443 12.2599 10.3087 12.0826L9.78966 9.49996Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M2.50253 18.5567C2.56482 18.4946 2.63826 18.4459 2.71866 18.4133C2.79906 18.3807 2.88485 18.3649 2.97112 18.3668C3.05739 18.3687 3.14245 18.3883 3.22145 18.4244C3.30045 18.4605 3.37184 18.5124 3.43154 18.5772L6.59966 22.0152C7.07009 22.5248 7.63512 22.9307 8.26059 23.2081L8.30527 23.2286C8.92997 23.5052 9.60339 23.6428 10.2823 23.6327C10.9612 23.6226 11.6305 23.4649 12.2474 23.1698L12.43 23.0824C13.087 22.7681 13.6875 22.3445 14.2079 21.8252L14.3748 21.6572C15.0755 20.9593 15.5597 20.0596 15.7653 19.0735C15.9708 18.0875 15.8884 17.06 15.5285 16.123L13.5272 10.9169C13.4951 10.8335 13.4791 10.7444 13.4801 10.6546C13.4812 10.5649 13.4992 10.4762 13.5332 10.3936C13.5671 10.3111 13.6164 10.2363 13.6782 10.1736C13.74 10.1108 13.813 10.0614 13.8932 10.028C13.9733 9.99462 14.059 9.97799 14.1454 9.97905C14.2317 9.98011 14.317 9.99885 14.3964 10.0342C14.4757 10.0695 14.5476 10.1208 14.608 10.185C14.6683 10.2492 14.7159 10.3252 14.7479 10.4086L16.7479 15.6147C17.2052 16.8047 17.3101 18.1095 17.0493 19.3619C16.7885 20.6143 16.1738 21.7571 15.2841 22.6437L15.1172 22.8104C14.4905 23.4353 13.7679 23.947 12.9793 24.3245L12.7966 24.4119C12.0133 24.7868 11.1631 24.987 10.3009 24.9997C9.43868 25.0124 8.58343 24.8373 7.79017 24.4857L7.7455 24.4652C6.95672 24.1161 6.24418 23.6043 5.65094 22.9607L2.48413 19.5228C2.42433 19.4581 2.37738 19.3818 2.34594 19.2982C2.3145 19.2147 2.2992 19.1255 2.30091 19.0358C2.30262 18.9461 2.3213 18.8576 2.3559 18.7754C2.39049 18.6932 2.44031 18.6189 2.50253 18.5567Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.548096 17.422C0.186351 17.0295 -0.0106452 16.5037 0.000444049 15.9602C0.0115333 15.4167 0.2298 14.9 0.607227 14.5238C0.984655 14.1476 1.49033 13.9428 2.013 13.9543C2.53567 13.9658 3.03253 14.1928 3.39428 14.5853L5.21289 16.5584C5.33348 16.6893 5.39914 16.8645 5.39544 17.0457C5.39175 17.2269 5.31899 17.3991 5.19318 17.5245C5.06737 17.6499 4.89882 17.7182 4.72459 17.7143C4.55037 17.7105 4.38475 17.6348 4.26417 17.504L2.44555 15.5309C2.38585 15.4661 2.31446 15.4142 2.23545 15.3781C2.15645 15.342 2.07139 15.3224 1.98513 15.3205C1.89886 15.3186 1.81307 15.3344 1.73267 15.367C1.65227 15.3996 1.57883 15.4483 1.51653 15.5104C1.45424 15.5725 1.40432 15.6467 1.36961 15.7288C1.33491 15.811 1.3161 15.8995 1.31427 15.9892C1.31244 16.0789 1.32762 16.1681 1.35894 16.2517C1.39027 16.3353 1.43712 16.4117 1.49682 16.4764L5.13405 20.4228C5.19376 20.4875 5.24061 20.5639 5.27193 20.6475C5.30325 20.7311 5.31843 20.8203 5.3166 20.91C5.31477 20.9997 5.29597 21.0882 5.26126 21.1704C5.22656 21.2525 5.17664 21.3267 5.11434 21.3888C5.05205 21.4509 4.9786 21.4996 4.8982 21.5322C4.8178 21.5648 4.73202 21.5806 4.64575 21.5787C4.55948 21.5768 4.47442 21.5572 4.39542 21.5211C4.31642 21.485 4.24503 21.4331 4.18532 21.3683L0.548096 17.422ZM7.23255 8.86807C7.04815 8.67486 6.9026 8.44538 6.8044 8.19304C6.70621 7.9407 6.65733 7.67055 6.66063 7.39835C6.66393 7.12615 6.71934 6.85736 6.82362 6.60768C6.9279 6.35799 7.07896 6.1324 7.268 5.94409C7.45703 5.75577 7.68024 5.6085 7.9246 5.51087C8.16896 5.41324 8.42958 5.3672 8.69123 5.37545C8.95289 5.3837 9.21035 5.44607 9.44857 5.55891C9.6868 5.67175 9.90102 5.83281 10.0787 6.03269L10.7147 6.72411C10.7779 6.78812 10.8281 6.86471 10.8622 6.94932C10.8963 7.03392 10.9137 7.1248 10.9133 7.21654C10.913 7.30829 10.8948 7.39901 10.86 7.4833C10.8251 7.56759 10.7743 7.64372 10.7106 7.70716C10.6469 7.77059 10.5715 7.82003 10.489 7.85252C10.4065 7.885 10.3185 7.89988 10.2304 7.89626C10.1422 7.89263 10.0557 7.87058 9.97589 7.83142C9.8961 7.79226 9.82472 7.73679 9.766 7.66833L9.13001 6.97827C9.00943 6.84744 8.84381 6.77178 8.66958 6.76794C8.49536 6.7641 8.3268 6.83238 8.20099 6.95777C8.07518 7.08317 8.00243 7.25539 7.99873 7.43657C7.99503 7.61774 8.0607 7.79302 8.18128 7.92385L9.99858 9.897C10.1192 10.0278 10.1848 10.2031 10.1811 10.3843C10.1774 10.5655 10.1047 10.7377 9.97887 10.8631C9.85306 10.9885 9.68451 11.0568 9.51028 11.0529C9.33606 11.0491 9.17044 10.9734 9.04985 10.8426L7.23255 8.86807ZM12.7975 8.73552C12.6208 8.2282 12.6395 7.66952 12.8496 7.17618C13.0597 6.68284 13.445 6.29298 13.9249 6.08804C14.4049 5.88311 14.9425 5.87893 15.4253 6.07639C15.9082 6.27386 16.299 6.65768 16.5162 7.14771L17.5398 9.46657C17.5758 9.54822 17.5959 9.63644 17.5991 9.72619C17.6023 9.81594 17.5885 9.90546 17.5584 9.98965C17.5283 10.0738 17.4826 10.151 17.4238 10.2169C17.3651 10.2827 17.2944 10.3358 17.2159 10.3732C17.1374 10.4106 17.0525 10.4316 16.9662 10.4349C16.8799 10.4382 16.7938 10.4238 16.7129 10.3926C16.6319 10.3613 16.5577 10.3137 16.4944 10.2526C16.4311 10.1915 16.38 10.118 16.344 10.0364L15.3217 7.71752C15.2452 7.5495 15.1097 7.41841 14.943 7.35128C14.7763 7.28415 14.5912 7.28611 14.4259 7.35674C14.2605 7.42737 14.1276 7.5613 14.0544 7.73089C13.9812 7.90048 13.9734 8.09281 14.0326 8.2682L14.8368 10.5679C14.8964 10.7383 14.8885 10.9262 14.8148 11.0905C14.7411 11.2548 14.6077 11.3819 14.4439 11.4438C14.2801 11.5058 14.0994 11.4976 13.9414 11.4209C13.7835 11.3443 13.6612 11.2056 13.6016 11.0353L12.7975 8.73552Z"
+                                                fill="black" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M16.7044 9.12104C16.8661 9.05367 17.047 9.05585 17.2071 9.12708C17.3673 9.19832 17.4937 9.33278 17.5586 9.50091L19.5585 14.7071C20.016 15.8972 20.1212 17.2023 19.8603 18.455C19.5995 19.7077 18.9846 20.8507 18.0947 21.7375L17.962 21.87C17.3129 22.5169 16.5646 23.0466 15.7478 23.4373L15.5875 23.5138C15.1555 23.7201 14.71 23.891 14.2525 24.0249L12.7361 24.4703C12.653 24.4947 12.5661 24.5017 12.4804 24.4911C12.3947 24.4805 12.3118 24.4525 12.2365 24.4086C12.1613 24.3647 12.095 24.3058 12.0416 24.2352C11.9882 24.1647 11.9487 24.084 11.9253 23.9976C11.9019 23.9112 11.8952 23.8208 11.9053 23.7317C11.9155 23.6425 11.9425 23.5564 11.9847 23.4781C12.027 23.3998 12.0836 23.3309 12.1514 23.2754C12.2192 23.2199 12.2969 23.1788 12.38 23.1545L13.8951 22.7104C14.2866 22.5956 14.6703 22.4494 15.0383 22.2731L15.1986 22.1952C15.8825 21.8682 16.5091 21.4249 17.0527 20.8834L17.1867 20.7509C17.8873 20.0526 18.3713 19.1526 18.5766 18.1663C18.782 17.18 18.6992 16.1525 18.3391 15.2154L16.3378 10.0092C16.3058 9.92588 16.2899 9.83678 16.2909 9.74703C16.292 9.65728 16.3101 9.56862 16.3442 9.48614C16.3782 9.40366 16.4275 9.32896 16.4894 9.26631C16.5512 9.20366 16.6243 9.1543 16.7044 9.12104ZM1.87958 0.800738C2.02372 0.699206 2.20072 0.661317 2.37171 0.695392C2.5427 0.729468 2.69368 0.832721 2.79152 0.982476L4.37623 3.41202C4.46647 3.56193 4.4973 3.74238 4.46222 3.91544C4.42715 4.08849 4.32891 4.24066 4.18817 4.33994C4.04742 4.43923 3.87514 4.47789 3.70755 4.4478C3.53996 4.41771 3.39011 4.32121 3.28953 4.1786L1.7035 1.75042C1.65495 1.67615 1.62096 1.59266 1.60346 1.50471C1.58597 1.41677 1.58532 1.32611 1.60155 1.2379C1.61779 1.1497 1.65058 1.06569 1.69806 0.990675C1.74554 0.915662 1.80809 0.851119 1.87958 0.800738ZM12.401 0.758378C12.2459 0.676279 12.0658 0.661536 11.9002 0.717385C11.7347 0.773234 11.5972 0.895112 11.518 1.05626L10.3261 3.48444C10.2838 3.56458 10.2574 3.65273 10.2485 3.74368C10.2395 3.83462 10.2482 3.92652 10.274 4.01391C10.2998 4.1013 10.3422 4.18242 10.3987 4.25246C10.4552 4.32249 10.5247 4.38002 10.603 4.42164C10.6813 4.46325 10.7668 4.48811 10.8545 4.49473C10.9421 4.50136 11.0302 4.48961 11.1135 4.46019C11.1967 4.43078 11.2734 4.38429 11.3391 4.32348C11.4047 4.26267 11.4579 4.18877 11.4956 4.10618L12.6875 1.67663C12.7664 1.51533 12.7806 1.32805 12.7269 1.15589C12.6732 0.98373 12.556 0.840766 12.401 0.758378ZM7.25395 0C7.42821 0 7.59532 0.0719823 7.71853 0.200112C7.84175 0.328241 7.91097 0.502022 7.91097 0.683224V3.1114C7.91097 3.2926 7.84175 3.46638 7.71853 3.59451C7.59532 3.72264 7.42821 3.79463 7.25395 3.79463C7.0797 3.79463 6.91259 3.72264 6.78938 3.59451C6.66616 3.46638 6.59694 3.2926 6.59694 3.1114V0.683224C6.59694 0.502022 6.66616 0.328241 6.78938 0.200112C6.91259 0.0719823 7.0797 0 7.25395 0Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="profil-card kanan">
+                                    <div class="body-semi-bold mt-2">
+                                        Posting Ulang
+                                    </div>
+                                    <div class="d-flex" style="align-items: center; gap: 5px;">
+                                        <div
+                                            style="width: 3px; height: 34px;border-radius: 10px;background: var(--Primary, #00438C);">
+                                        </div>
+                                        <h2 class="mt-2" style="color: var(--Teritery, #D254E2);">50</h2>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
+                                            viewBox="0 0 25 25" fill="none">
+                                            <path
+                                                d="M6.25 5C5.58696 5 4.95107 5.26339 4.48223 5.73223C4.01339 6.20107 3.75 6.83696 3.75 7.5V15H0L5 20L10 15H6.25V7.5H15L17.5 5H6.25ZM18.75 10H15L20 5L25 10H21.25V17.5C21.25 18.163 20.9866 18.7989 20.5178 19.2678C20.0489 19.7366 19.413 20 18.75 20H7.5L10 17.5H18.75V10Z"
+                                                fill="black" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="">
+                            <div class="edit-profil">
+                                <div class="body-semi-bold text-light">Edit Profil</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
