@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf') format('ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,13 +25,9 @@ body {
 
 }
 
-
-
 nav .masuk {
     color: var(--Monochrome-White, #F9F9F9);
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
     letter-spacing: 0.54px;
@@ -44,14 +45,11 @@ nav .mulai {
     background: var(--Button-Button-Inactive, rgba(255, 255, 255, 0.20));
 
     color: var(--Monochrome-White, #FFF);
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: normal;
     line-height: 170%;
     letter-spacing: 0.48px;
 }
-
 
 header {
     background-image: url("../image/bg-header.png");
@@ -65,42 +63,29 @@ header {
 
 header .text {
     color: var(--Monochrome-White, #F9F9F9);
-    font-family: Poppins;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 140%;
     letter-spacing: 1.44px;
     padding-top: 114px;
-
 }
-
 
 
 /* design system */
 
 .sub-heading-medium {
     color: var(--Blue-09, var(--Button-hover, #00336B));
-
-    /* Sub Heading Medium */
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
-    /* 30.6px */
     letter-spacing: 0.54px;
 }
 
 .sub-heading-regular {
     color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
-
-    /* Sub Heading Regular */
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 30.6px */
     letter-spacing: 0.54px;
 }
 
@@ -111,11 +96,7 @@ a {
 h1 {
     color: var(--Secondary, #007AFF);
     text-align: center;
-
-    /* Heading 1 */
-    font-family: Poppins;
     font-size: 48px;
-    font-style: normal;
     font-weight: 700;
     line-height: 140%;
     letter-spacing: 1.44px;
@@ -124,27 +105,18 @@ h1 {
 h2 {
     color: var(--Secondary, #007AFF);
     text-align: center;
-
-    /* Heading 2 */
-    font-family: Poppins;
     font-size: 28px;
-    font-style: normal;
     font-weight: 700;
     line-height: 140%;
-    /* 39.2px */
     letter-spacing: 0.84px;
 }
 
 h3 {
     color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
     text-align: center;
-
-    font-family: Poppins;
     font-size: 22px;
-    font-style: normal;
     font-weight: 600;
     line-height: 140%;
-    /* 33.6px */
     letter-spacing: 0.72px;
 }
 
@@ -152,61 +124,39 @@ h3 {
 .body-bold {
     color: #000;
     text-align: center;
-
-    /* Body Bold */
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 700;
     line-height: 170%;
-    /* 27.2px */
     letter-spacing: 0.48px;
 }
 
 .body-regular {
     color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
     text-align: center;
-
-    /* Body Regular */
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 27.2px */
     letter-spacing: 0.48px;
 }
 
 .sub-body-regular {
     color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
-
-    /* Sub Body Regular */
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 23.8px */
     letter-spacing: 0.42px;
 }
 
 .sub-body-medium {
     color: var(--Monochrome-02, var(--Foreground-secondary, rgba(0, 0, 0, 0.70)));
-
-    /* Sub Body Medium */
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
-    /* 23.8px */
     letter-spacing: 0.42px;
 }
 
 .caption {
     color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
-    /* Caption */
-    font-family: Poppins;
     font-size: 10px;
 }
 
@@ -225,9 +175,7 @@ h3 {
 
     color: var(--Monochrome-White, #F9F9F9);
 
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     line-height: 170%;
 }
 
@@ -236,9 +184,7 @@ h3 {
     margin-left: 25px;
     padding-bottom: 100px;
     color: var(--Green-02, #5DD27A);
-    font-family: Poppins;
     font-size: 18px;
-    font-style: normal;
     font-weight: 500;
     line-height: 170%;
     letter-spacing: 0.54px;
@@ -455,13 +401,9 @@ footer .body-regular:hover {
 .footer {
     color: var(--Grey, #BEBEBE);
 
-    /* Sub Body Regular */
-    font-family: Poppins;
     font-size: 14px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 23.8px */
     letter-spacing: 0.42px;
     margin-top: 30px;
     padding-bottom: 100px;
@@ -489,14 +431,9 @@ footer .stroke {
 #login-register .caption1 {
     color: var(--Monochrome-White, #F9F9F9);
     text-align: center;
-
-    /* Caption */
-    font-family: Poppins;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 18px */
     letter-spacing: 0.36px;
 }
 
@@ -522,9 +459,7 @@ footer .stroke {
 #login-register .card .caption {
     color: #474749;
     text-align: center;
-    font-family: Poppins;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     margin-top: 0;
 }
@@ -556,7 +491,6 @@ footer .stroke {
     border-radius: var(--Button-corner-radius, 8px);
     background: var(--Button-normal, #007AFF);
 
-    /* Blur/20 */
     backdrop-filter: blur(10px);
     color: #fff;
     margin: auto;
@@ -568,14 +502,9 @@ footer .stroke {
 
 #login-register .button .masuk {
     color: var(--Button-foreground, #FFF);
-
-    /* Body Regular */
-    font-family: Poppins;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 170%;
-    /* 27.2px */
     letter-spacing: 0.48px;
 }
 
@@ -637,7 +566,6 @@ footer .stroke {
 
     header .aktif {
         margin-left: 10px;
-        /* padding-bottom: 100px; */
         font-size: 16px;
     }
 
