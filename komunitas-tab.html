@@ -14,32 +14,32 @@
     <link rel="stylesheet" href="assets/css/komunitas.css">
     <link rel="stylesheet" href="assets/css/sidebar.css">
     <link rel="stylesheet" href="assets/css/dashboard.css">
-
+    
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center">
-                <button type="button" id="sidebarCollapse" class="btn m-1">
-                    <i class="fa fa-bars"></i>
-                    <span class="sr-only">Toggle Menu</span>
-                </button>
-                <h3 class="m-1 heading-navbar">Komunitas</h3>
-            </div>
+            <div class="container-fluid">
+                <div class="d-flex align-items-center">
+                    <button type="button" id="sidebarCollapse" class="btn m-1">
+                        <i class="fa fa-bars"></i>
+                        <span class="sr-only">Toggle Menu</span>
+                    </button>
+                    <h3 class="m-1 heading-navbar">Komunitas</h3>
+                </div>
 
-            <div class="d-flex">
-                <a href="#">
-                    <div class="me-2 button1">+ Ruang</div>
-                </a>
-                <a href="#">
-                    <div class="button1">+ Komunitas</div>
-                </a>
+                <div class="d-flex">
+                    <a href="#">
+                        <div class="me-2 button1">+ Ruang</div>
+                    </a>
+                    <a href="#">
+                        <div class="button1">+ Komunitas</div>
+                    </a>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <div class="wrapper d-flex align-items-stretch">
-
+        
 
         <nav id="sidebar" class="active">
             <a href="pages/index.html" class="logo"><img src="assets/image/logo-komunitas.png" alt="Logo Albarru"></a>
@@ -65,7 +65,7 @@
 
         <!-- Page Content  -->
         <div id="content" class="p-4 p-md-5 komunitas-tabinfo">
-
+            
             <div id="siaran-langsung">
                 <div class="row">
                     <div class="col">
@@ -248,7 +248,7 @@
                             </div>
 
                             <ul class="list-group">
-                                <li class="list-group-item list-group-item-action">
+                                <li class="list-group-item list-group-item-action list-group-active">
                                     <div class="row">
                                         <div class="col-2">
                                             <img src="assets/image/siaran-langsung/islam-channel.png" alt=""
@@ -261,7 +261,7 @@
                                             <div class="body-regular">Haii!👋 Kami ada info kejutan menarik...</di>
                                             </div>
                                         </div>
-                                        <div class="col-2 caption text-end">
+                                        <div class="col-2 caption-active text-end">
                                             09.00
                                         </div>
                                     </div>
@@ -336,12 +336,17 @@
                             <div class="header-profile-komunitas">
                                 <div class="row">
                                     <div class="col-2 header-komunitas text-end">
-                                        <img src="assets/image/siaran-langsung/muslimah-pride.png" alt=""
-                                            class="img-list">
+                                        <a href="profil-komunitas.html">
+                                            <img src="assets/image/siaran-langsung/muslimah-pride.png" alt=""
+                                                class="img-list">
+                                        </a>
                                     </div>
                                     <div class="col-8 mt-2">
                                         <div class="body-bold">
-                                            Islam Channel
+                                            <a href="profil-komunitas.html"
+                                                style="color: inherit; text-decoration: none;">
+                                                Islam Channel
+                                            </a>
                                         </div>
                                         <div class="body-regular mt-1">150 Anggota</di>
                                         </div>
@@ -380,12 +385,12 @@
                                 <div class="tab-pane fade show active" id="tab1" role="tabpanel"
                                     aria-labelledby="tab1-tab">
                                     <div class="row mt-4">
-                                        <div class="col-2 text-center">
+                                        <div class="col-md-2 col-3 text-center">
                                             <img src="assets/image/siaran-langsung/muslimah-pride.png" alt=""
                                                 class="img-chat"">
                                         </div>
-                                        <div class=" col-8 note-card">
-                                            <div class="card card-chat">
+                                        <div class=" col-md-10 col-8 mt-2 note-card">
+                                            <div class="card col-md-10 card-chat">
                                                 <div class="card-body">
                                                     <h5 class="sub-heading-medium">Intisari Surah Al-Kautsar -
                                                         Mondate
@@ -397,11 +402,12 @@
                                                         Al-Qur'an ini menjadi surat yang paling pendek di antara
                                                         surat
                                                         lainnya . . </p>
-                                                    <a href="komunitas.html" class="btn btn-primary btn-aktif">Baca</a>
+                                                    <a href="detail-catatan.html"
+                                                        class="btn btn-primary btn-aktif">Baca</a>
                                                     <h5 class="text-end mt-2 caption">10.30 AM</h5>
                                                 </div>
                                             </div>
-                                            <div class="card card-chat">
+                                            <div class="card col-md-5 card-chat">
                                                 <div class="card-body">
                                                     <div class="row justify-content-center">
                                                         <div class="col-2">
@@ -413,23 +419,26 @@
                                                         <div class="col-10 mt-1">
                                                             <h5 class="body-regular ms-4">File Kajian 1</h5>
                                                             <div class="row">
-                                                                <h5 class="col-5 sub-body-medium ms-4">15 kb</h5>
-                                                                <h5 class="col-5 text-end caption mt-3">10.30 AM
+                                                                <h5 class="col-md-5 col-4 sub-body-medium ms-4">15 kb
+                                                                </h5>
+                                                                <h5 class="col-md-5 col text-end caption mt-3">10.30 AM
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="card card-chat" style="width: 22rem;">
-                                                <img src="assets/image/chat-card.png" class="card-img-top" alt="...">
+
+                                            <div class="card col-md-6 col-8 card-chat"">
+                                                <img src=" assets/image/komunitas/card-view.png" class="card-img-top"
+                                                alt="...">
                                                 <div class="card-body">
                                                     <h5 class="body-regular">Haii!👋</h5>
                                                     <h5 class="body-regular">Kami ada info kejutan menarik nih,
                                                         kira-kira apasih?
-                                                        Pada bulan Ramadhan nanti kami akan mengadakan kajian-kajian
+                                                        Pada bulan Ramadhan kami akan mengadakan kajian-kajian
                                                         bersama ustadz terkenal loh
                                                         Yuk, Simak dan pantau terus channel kami
-                                                        Sampai jumpa di Bulan Ramadhan nanti! 👋</h5>
+                                                        Sampai jumpa di Bulan Ramadhan nanti!👋</h5>
                                                     <h5 class="text-end caption">10.35 AM
                                                 </div>
                                                 <hr>
@@ -459,22 +468,64 @@
                                 <div class=" tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
                                     <div class="catatan-card">
                                         <div class="row mt-4">
-                                            <div class="col-2 text-center">
+                                            <div class="col-md-2 col-3 text-center">
                                                 <img src="assets/image/siaran-langsung/muslimah-pride.png" alt=""
                                                     class="img-chat"">
                                             </div>
-                                            <div class=" col-8 mt-2">
-                                                <div class="card card-chat" style="width: 22rem;">
-                                                    <img src="assets/image/card-view.png" class="card-img-top"
-                                                        alt="...">
+                                            <div class=" col-md-6 col-8 mt-3">
+                                                <div class="card card-chat">
+                                                    <img src="assets/image/komunitas/card-view-2.png"
+                                                        class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="body-regular">Haii!👋</h5>
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-2 text-center">
+                                                                <img src="assets/image/komunitas/logo-channel.png"
+                                                                    alt="" class="img-logo-channel">
+                                                            </div>
+                                                            <div
+                                                                class="col-md-3 col-12 tag-channel text-center text-md-start mx-auto">
+                                                                <div class="caption">Muslimah Pride
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12"
+                                                                        height="13" class="ms-2" viewBox="0 0 15 14"
+                                                                        fill="none">
+                                                                        <path
+                                                                            d="M13.4838 11.7674C13.3812 11.7654 13.2799 11.7432 13.1859 11.7021C13.0918 11.661 13.0067 11.6018 12.9356 11.5277C12.8644 11.4537 12.8085 11.3664 12.7712 11.2708C12.7338 11.1752 12.7156 11.0731 12.7177 10.9705L12.8767 2.91422L1.84619 13.5195C1.69682 13.6631 1.49653 13.7415 1.28937 13.7374C1.08221 13.7333 0.885151 13.6471 0.741545 13.4978C0.59794 13.3484 0.519551 13.1481 0.523622 12.941C0.527694 12.7338 0.613892 12.5367 0.763256 12.3931L11.7938 1.78787L3.73746 1.63022C3.53019 1.62614 3.33302 1.53989 3.18934 1.39045C3.04565 1.241 2.96722 1.0406 2.97129 0.833322C2.97536 0.626047 3.06161 0.428879 3.21106 0.285193C3.3605 0.141508 3.56091 0.0630743 3.76819 0.0671483L13.71 0.262548C13.8126 0.264508 13.9139 0.286682 14.0079 0.327802C14.102 0.368922 14.1871 0.428181 14.2582 0.502191C14.3294 0.576201 14.3852 0.66351 14.4226 0.759127C14.46 0.854745 14.4782 0.956795 14.4761 1.05944L14.2807 11.0012C14.2788 11.1039 14.2566 11.2051 14.2155 11.2992C14.1744 11.3933 14.1151 11.4783 14.0411 11.5495C13.9671 11.6206 13.8798 11.6765 13.7841 11.7139C13.6885 11.7513 13.5865 11.7695 13.4838 11.7674Z"
+                                                                            fill="#F9F9F9" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-4 col-12 text-md-end">
+                                                                <h5 class="text-zoom">3 jam yang lalu</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="align-self-stretch justify-content-start align-items-center gap-2 d-flex my-2 mt-3">
+                                                            <svg width="25" height="18" viewBox="0 0 27 20" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path id="Vector"
+                                                                    d="M8.82122 0C8.20104 -1.31087e-08 7.58693 0.122522 7.01395 0.360571C6.44098 0.598619 5.92036 0.947532 5.48183 1.38739C5.04329 1.82725 4.69543 2.34943 4.45809 2.92413C4.22076 3.49883 4.09861 4.11479 4.09861 4.73684C4.09861 5.35889 4.22076 5.97485 4.45809 6.54955C4.69543 7.12425 5.04329 7.64644 5.48183 8.0863C5.92036 8.52615 6.44098 8.87507 7.01395 9.11311C7.58693 9.35116 8.20104 9.47368 8.82122 9.47368C10.0737 9.47368 11.275 8.97463 12.1606 8.0863C13.0463 7.19797 13.5438 5.99313 13.5438 4.73684C13.5438 3.48055 13.0463 2.27572 12.1606 1.38739C11.275 0.499059 10.0737 2.64743e-08 8.82122 0ZM5.67281 4.73684C5.67281 4.32214 5.75425 3.9115 5.91247 3.52837C6.07069 3.14523 6.3026 2.79711 6.59496 2.50387C6.88732 2.21064 7.23439 1.97803 7.61638 1.81933C7.99836 1.66063 8.40777 1.57895 8.82122 1.57895C9.23468 1.57895 9.64408 1.66063 10.0261 1.81933C10.408 1.97803 10.7551 2.21064 11.0475 2.50387C11.3398 2.79711 11.5718 3.14523 11.73 3.52837C11.8882 3.9115 11.9696 4.32214 11.9696 4.73684C11.9696 5.57437 11.6379 6.37759 11.0475 6.96981C10.457 7.56203 9.65623 7.89474 8.82122 7.89474C7.98621 7.89474 7.1854 7.56203 6.59496 6.96981C6.00452 6.37759 5.67281 5.57437 5.67281 4.73684ZM19.8407 2.10526C18.8665 2.10526 17.9322 2.49342 17.2434 3.18434C16.5545 3.87527 16.1675 4.81236 16.1675 5.78947C16.1675 6.76659 16.5545 7.70368 17.2434 8.3946C17.9322 9.08553 18.8665 9.47368 19.8407 9.47368C20.8148 9.47368 21.7491 9.08553 22.438 8.3946C23.1268 7.70368 23.5138 6.76659 23.5138 5.78947C23.5138 4.81236 23.1268 3.87527 22.438 3.18434C21.7491 2.49342 20.8148 2.10526 19.8407 2.10526ZM17.7417 5.78947C17.7417 5.23112 17.9629 4.69564 18.3565 4.30083C18.7501 3.90601 19.284 3.68421 19.8407 3.68421C20.3973 3.68421 20.9312 3.90601 21.3248 4.30083C21.7185 4.69564 21.9396 5.23112 21.9396 5.78947C21.9396 6.34782 21.7185 6.88331 21.3248 7.27812C20.9312 7.67293 20.3973 7.89474 19.8407 7.89474C19.284 7.89474 18.7501 7.67293 18.3565 7.27812C17.9629 6.88331 17.7417 6.34782 17.7417 5.78947ZM0.950195 13.9474C0.950195 13.3192 1.19898 12.7168 1.64181 12.2726C2.08464 11.8285 2.68525 11.5789 3.3115 11.5789H14.3309C14.9572 11.5789 15.5578 11.8285 16.0006 12.2726C16.4435 12.7168 16.6922 13.3192 16.6922 13.9474V14.5063C16.6909 14.5915 16.6849 14.6765 16.6744 14.7611C16.6507 14.9782 16.6122 15.1934 16.559 15.4053C16.3854 16.0965 16.0761 16.746 15.6491 17.3158C14.5849 18.74 12.5552 20 8.82122 20C5.08721 20 3.05753 18.74 1.99337 17.3158C1.56671 16.7459 1.25773 16.0964 1.08453 15.4053C1.01601 15.1301 0.972103 14.8493 0.953344 14.5663C0.952036 14.5463 0.950986 14.5263 0.950195 14.5063V14.4758V13.9474ZM2.5244 14.4684V14.4874L2.53385 14.5926C2.54434 14.6916 2.56533 14.84 2.61151 15.0221C2.73387 15.509 2.95147 15.9666 3.25168 16.3684C3.95903 17.3126 5.47131 18.4211 8.82122 18.4211C12.1711 18.4211 13.6834 17.3126 14.3897 16.3684C14.757 15.8779 14.9396 15.3874 15.0299 15.0221C15.074 14.8467 15.1031 14.6678 15.117 14.4874L15.118 14.4684V13.9474C15.118 13.738 15.0351 13.5372 14.8875 13.3891C14.7399 13.2411 14.5397 13.1579 14.3309 13.1579H3.3115C3.10275 13.1579 2.90255 13.2411 2.75494 13.3891C2.60733 13.5372 2.5244 13.738 2.5244 13.9474V14.4684ZM16.7972 17.4947C17.6084 17.7442 18.6096 17.8947 19.8386 17.8947C22.7456 17.8947 24.3702 17.0568 25.2528 16.0463C25.6057 15.6464 25.8672 15.174 26.0189 14.6621C26.0788 14.4554 26.1172 14.2431 26.1333 14.0284L26.1354 13.9789V13.9474C26.1354 13.3192 25.8866 12.7168 25.4438 12.2726C25.0009 11.8285 24.4003 11.5789 23.7741 11.5789H16.7909C17.2044 12.0116 17.5066 12.5537 17.6494 13.1579H23.7751C23.9821 13.1579 24.1807 13.2396 24.328 13.3854C24.4753 13.5312 24.5595 13.7293 24.5622 13.9368C24.5529 14.0324 24.5346 14.1268 24.5077 14.2189C24.4199 14.5106 24.2694 14.7793 24.0669 15.0063C23.5726 15.5747 22.4433 16.3158 19.8386 16.3158C18.851 16.3158 18.0754 16.2095 17.4657 16.0453C17.304 16.5545 17.0794 17.0414 16.7972 17.4947Z"
+                                                                    fill="black" />
+                                                            </svg>
+                                                            <div class="caption">68 Bergabung</div>
+                                                        </div>
+                                                        <h5 class="sub-heading-medium mt-3">Berkah di Bulan Ramadhan
+                                                        </h5>
                                                         <h5 class="body-regular">
-                                                            Kami ada info kejutan menarik nih, kira-kira apasih?
-                                                            Pada bulan Ramadhan nanti kami akan mengadakan kajian-kajian
-                                                            bersama ustadz terkenal loh
-                                                            Yuk, Simak dan pantau terus channel kami
-                                                            Sampai jumpa di Bulan Ramadhan nanti! 👋</h5>
+                                                            Selamat datang di live streaming istimewa kami, "Berkah di
+                                                            Bulan Ramadhan"! 🌙✨</h5>
+                                                        <div class="d-md-flex gap-3 align-items-center">
+                                                            <img src="assets/image/komunitas/love.svg" alt=""
+                                                                class="img-logo-channel">
+                                                            <img src="assets/image/komunitas/link.svg" alt=""
+                                                                class="img-logo-channel">
+                                                            <button class="btn btn-non-aktif mt-md-0">
+                                                                <h5 class="body-regular">Gabung</h5>
+                                                                <img src="assets/image/komunitas/zoom-black.svg"
+                                                                    alt="Zoom Logo" class="zoom-logo">
+                                                            </button>
+                                                        </div>
+
                                                         <h5 class="text-end caption">11.10 AM
                                                     </div>
                                                     <hr>
@@ -501,22 +552,64 @@
                                             </div>
                                         </div>
                                         <div class="row mt-4">
-                                            <div class="col-2 text-center">
+                                            <div class="col-md-2 col-3 text-center">
                                                 <img src="assets/image/siaran-langsung/muslimah-pride.png" alt=""
                                                     class="img-chat"">
                                             </div>
-                                            <div class=" col-8 mt-2">
-                                                <div class="card card-chat" style="width: 22rem;">
-                                                    <img src="assets/image/card-view.png" class="card-img-top"
-                                                        alt="...">
+                                            <div class=" col-md-6 col-8 mt-3">
+                                                <div class="card card-chat">
+                                                    <img src="assets/image/komunitas/card-view-2.png"
+                                                        class="card-img-top" alt="...">
                                                     <div class="card-body">
-                                                        <h5 class="body-regular">Haii!👋</h5>
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-2 text-center">
+                                                                <img src="assets/image/komunitas/logo-channel.png"
+                                                                    alt="" class="img-logo-channel">
+                                                            </div>
+                                                            <div
+                                                                class="col-md-3 col-12 tag-channel text-center text-md-start mx-auto">
+                                                                <div class="caption">Muslimah Pride
+                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12"
+                                                                        height="13" class="ms-2" viewBox="0 0 15 14"
+                                                                        fill="none">
+                                                                        <path
+                                                                            d="M13.4838 11.7674C13.3812 11.7654 13.2799 11.7432 13.1859 11.7021C13.0918 11.661 13.0067 11.6018 12.9356 11.5277C12.8644 11.4537 12.8085 11.3664 12.7712 11.2708C12.7338 11.1752 12.7156 11.0731 12.7177 10.9705L12.8767 2.91422L1.84619 13.5195C1.69682 13.6631 1.49653 13.7415 1.28937 13.7374C1.08221 13.7333 0.885151 13.6471 0.741545 13.4978C0.59794 13.3484 0.519551 13.1481 0.523622 12.941C0.527694 12.7338 0.613892 12.5367 0.763256 12.3931L11.7938 1.78787L3.73746 1.63022C3.53019 1.62614 3.33302 1.53989 3.18934 1.39045C3.04565 1.241 2.96722 1.0406 2.97129 0.833322C2.97536 0.626047 3.06161 0.428879 3.21106 0.285193C3.3605 0.141508 3.56091 0.0630743 3.76819 0.0671483L13.71 0.262548C13.8126 0.264508 13.9139 0.286682 14.0079 0.327802C14.102 0.368922 14.1871 0.428181 14.2582 0.502191C14.3294 0.576201 14.3852 0.66351 14.4226 0.759127C14.46 0.854745 14.4782 0.956795 14.4761 1.05944L14.2807 11.0012C14.2788 11.1039 14.2566 11.2051 14.2155 11.2992C14.1744 11.3933 14.1151 11.4783 14.0411 11.5495C13.9671 11.6206 13.8798 11.6765 13.7841 11.7139C13.6885 11.7513 13.5865 11.7695 13.4838 11.7674Z"
+                                                                            fill="#F9F9F9" />
+                                                                    </svg>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-4 col-12 text-md-end">
+                                                                <h5 class="text-zoom">3 jam yang lalu</h5>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="align-self-stretch justify-content-start align-items-center gap-2 d-flex my-2 mt-3">
+                                                            <svg width="25" height="18" viewBox="0 0 27 20" fill="none"
+                                                                xmlns="http://www.w3.org/2000/svg">
+                                                                <path id="Vector"
+                                                                    d="M8.82122 0C8.20104 -1.31087e-08 7.58693 0.122522 7.01395 0.360571C6.44098 0.598619 5.92036 0.947532 5.48183 1.38739C5.04329 1.82725 4.69543 2.34943 4.45809 2.92413C4.22076 3.49883 4.09861 4.11479 4.09861 4.73684C4.09861 5.35889 4.22076 5.97485 4.45809 6.54955C4.69543 7.12425 5.04329 7.64644 5.48183 8.0863C5.92036 8.52615 6.44098 8.87507 7.01395 9.11311C7.58693 9.35116 8.20104 9.47368 8.82122 9.47368C10.0737 9.47368 11.275 8.97463 12.1606 8.0863C13.0463 7.19797 13.5438 5.99313 13.5438 4.73684C13.5438 3.48055 13.0463 2.27572 12.1606 1.38739C11.275 0.499059 10.0737 2.64743e-08 8.82122 0ZM5.67281 4.73684C5.67281 4.32214 5.75425 3.9115 5.91247 3.52837C6.07069 3.14523 6.3026 2.79711 6.59496 2.50387C6.88732 2.21064 7.23439 1.97803 7.61638 1.81933C7.99836 1.66063 8.40777 1.57895 8.82122 1.57895C9.23468 1.57895 9.64408 1.66063 10.0261 1.81933C10.408 1.97803 10.7551 2.21064 11.0475 2.50387C11.3398 2.79711 11.5718 3.14523 11.73 3.52837C11.8882 3.9115 11.9696 4.32214 11.9696 4.73684C11.9696 5.57437 11.6379 6.37759 11.0475 6.96981C10.457 7.56203 9.65623 7.89474 8.82122 7.89474C7.98621 7.89474 7.1854 7.56203 6.59496 6.96981C6.00452 6.37759 5.67281 5.57437 5.67281 4.73684ZM19.8407 2.10526C18.8665 2.10526 17.9322 2.49342 17.2434 3.18434C16.5545 3.87527 16.1675 4.81236 16.1675 5.78947C16.1675 6.76659 16.5545 7.70368 17.2434 8.3946C17.9322 9.08553 18.8665 9.47368 19.8407 9.47368C20.8148 9.47368 21.7491 9.08553 22.438 8.3946C23.1268 7.70368 23.5138 6.76659 23.5138 5.78947C23.5138 4.81236 23.1268 3.87527 22.438 3.18434C21.7491 2.49342 20.8148 2.10526 19.8407 2.10526ZM17.7417 5.78947C17.7417 5.23112 17.9629 4.69564 18.3565 4.30083C18.7501 3.90601 19.284 3.68421 19.8407 3.68421C20.3973 3.68421 20.9312 3.90601 21.3248 4.30083C21.7185 4.69564 21.9396 5.23112 21.9396 5.78947C21.9396 6.34782 21.7185 6.88331 21.3248 7.27812C20.9312 7.67293 20.3973 7.89474 19.8407 7.89474C19.284 7.89474 18.7501 7.67293 18.3565 7.27812C17.9629 6.88331 17.7417 6.34782 17.7417 5.78947ZM0.950195 13.9474C0.950195 13.3192 1.19898 12.7168 1.64181 12.2726C2.08464 11.8285 2.68525 11.5789 3.3115 11.5789H14.3309C14.9572 11.5789 15.5578 11.8285 16.0006 12.2726C16.4435 12.7168 16.6922 13.3192 16.6922 13.9474V14.5063C16.6909 14.5915 16.6849 14.6765 16.6744 14.7611C16.6507 14.9782 16.6122 15.1934 16.559 15.4053C16.3854 16.0965 16.0761 16.746 15.6491 17.3158C14.5849 18.74 12.5552 20 8.82122 20C5.08721 20 3.05753 18.74 1.99337 17.3158C1.56671 16.7459 1.25773 16.0964 1.08453 15.4053C1.01601 15.1301 0.972103 14.8493 0.953344 14.5663C0.952036 14.5463 0.950986 14.5263 0.950195 14.5063V14.4758V13.9474ZM2.5244 14.4684V14.4874L2.53385 14.5926C2.54434 14.6916 2.56533 14.84 2.61151 15.0221C2.73387 15.509 2.95147 15.9666 3.25168 16.3684C3.95903 17.3126 5.47131 18.4211 8.82122 18.4211C12.1711 18.4211 13.6834 17.3126 14.3897 16.3684C14.757 15.8779 14.9396 15.3874 15.0299 15.0221C15.074 14.8467 15.1031 14.6678 15.117 14.4874L15.118 14.4684V13.9474C15.118 13.738 15.0351 13.5372 14.8875 13.3891C14.7399 13.2411 14.5397 13.1579 14.3309 13.1579H3.3115C3.10275 13.1579 2.90255 13.2411 2.75494 13.3891C2.60733 13.5372 2.5244 13.738 2.5244 13.9474V14.4684ZM16.7972 17.4947C17.6084 17.7442 18.6096 17.8947 19.8386 17.8947C22.7456 17.8947 24.3702 17.0568 25.2528 16.0463C25.6057 15.6464 25.8672 15.174 26.0189 14.6621C26.0788 14.4554 26.1172 14.2431 26.1333 14.0284L26.1354 13.9789V13.9474C26.1354 13.3192 25.8866 12.7168 25.4438 12.2726C25.0009 11.8285 24.4003 11.5789 23.7741 11.5789H16.7909C17.2044 12.0116 17.5066 12.5537 17.6494 13.1579H23.7751C23.9821 13.1579 24.1807 13.2396 24.328 13.3854C24.4753 13.5312 24.5595 13.7293 24.5622 13.9368C24.5529 14.0324 24.5346 14.1268 24.5077 14.2189C24.4199 14.5106 24.2694 14.7793 24.0669 15.0063C23.5726 15.5747 22.4433 16.3158 19.8386 16.3158C18.851 16.3158 18.0754 16.2095 17.4657 16.0453C17.304 16.5545 17.0794 17.0414 16.7972 17.4947Z"
+                                                                    fill="black" />
+                                                            </svg>
+                                                            <div class="caption">68 Bergabung</div>
+                                                        </div>
+                                                        <h5 class="sub-heading-medium mt-3">Berkah di Bulan Ramadhan
+                                                        </h5>
                                                         <h5 class="body-regular">
-                                                            Kami ada info kejutan menarik nih, kira-kira apasih?
-                                                            Pada bulan Ramadhan nanti kami akan mengadakan kajian-kajian
-                                                            bersama ustadz terkenal loh
-                                                            Yuk, Simak dan pantau terus channel kami
-                                                            Sampai jumpa di Bulan Ramadhan nanti! 👋</h5>
+                                                            Selamat datang di live streaming istimewa kami, "Berkah di
+                                                            Bulan Ramadhan"! 🌙✨</h5>
+                                                        <div class="d-md-flex gap-3 align-items-center">
+                                                            <img src="assets/image/komunitas/love.svg" alt=""
+                                                                class="img-logo-channel">
+                                                            <img src="assets/image/komunitas/link.svg" alt=""
+                                                                class="img-logo-channel">
+                                                            <button class="btn-aktif mt-md-0">
+                                                                <h5 class="body-regular">Gabung</h5>
+                                                                <img src="assets/image/komunitas/zoom-white.svg"
+                                                                    alt="Zoom Logo" class="zoom-logo">
+                                                            </button>
+                                                        </div>
+
                                                         <h5 class="text-end caption">11.10 AM
                                                     </div>
                                                     <hr>
