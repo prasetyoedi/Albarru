@@ -256,3 +256,13 @@ video {
 .input-chat input {
   border: 0px;
 }
+
+#myVideo {
+  object-fit: cover; /* Atur objek-fit ke cover untuk memastikan video sesuai dengan kontainer tanpa mempertahankan aspek ratio */
+  width: 100%; /* Sesuaikan lebar dengan 100% agar video mengisi lebar kontainer */
+ /* Tetapkan tinggi sesuai kebutuhan Anda */
+}
+
+#myVideo::-webkit-media-controls {
+  display: none !important;
+}
