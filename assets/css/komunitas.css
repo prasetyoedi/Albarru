@@ -9,10 +9,10 @@
 
 .button1 {
     display: flex;
-    padding: 18px 32px;
+    padding: 10px 20px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 
     border-radius: 4px;
     background: var(--Secondary, #007AFF);
@@ -84,7 +84,6 @@ h2 {
 
 .body-regular {
     color: var(--Monochrome-01, #000);
-
     /* Body Regular */
     font-size: 14px;
     font-style: normal;
@@ -92,6 +91,28 @@ h2 {
     line-height: 170%;
     /* 27.2px */
     letter-spacing: 0.48px;
+}
+.body-regular-grey {
+    color: var(--text-secondary, #4A5A67);
+    /* Body Regular */
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 27.2px */
+    letter-spacing: 0.48px;
+}
+
+.body-small {
+    color: var(--Monochrome-01, #000);
+
+    /* Body Small */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    /* 20.4px */
+    letter-spacing: 0.36px;
 }
 
 
@@ -106,7 +127,7 @@ h2 {
     stroke: var(--Monochrome-04, rgba(0, 0, 0, 0.25));
 }
 
-#siaran-langsung .card .tag {
+.card .tag {
     width: 165px;
     height: 31px;
     padding: 18px 24px 18px 32px;
@@ -125,12 +146,12 @@ h2 {
     transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-#siaran-langsung .card .tag:hover {
+.card .tag:hover {
     background: #C12BDB;
     box-shadow: 0px 0px 10px 0px rgba(194, 43, 219, 0.75);
 }
 
-#siaran-langsung .card .tag .caption {
+.card .tag .caption {
     color: var(--Monochrome-White, #F9F9F9);
 
     /* Caption */
@@ -160,7 +181,6 @@ h2 {
     background: var(--Blue-01, #B0D6FF);
     padding: 10px;
     border-radius: 5px;
-
     border-radius: var(--Button-corner-radius, 8px);
     border: 2px solid var(--Blue-06, #006FE8);
 }
