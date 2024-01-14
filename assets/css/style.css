@@ -7,12 +7,12 @@
 
 nav {
     background-color: #00438C;
-
+    border-bottom: 1px solid var(--Blue-01, #B0D6FF);
 }
 
 nav .container-fluid {
-    padding-right: 48px;
-    padding-left: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 body {
@@ -60,7 +60,7 @@ header {
     background-position: center;
     height: 100%;
     width: 100%;
-    
+
 }
 
 header .text {
@@ -72,7 +72,7 @@ header .text {
     line-height: 140%;
     letter-spacing: 1.44px;
     padding-top: 114px;
-    
+
 }
 
 
@@ -80,11 +80,14 @@ header .text {
 /* design system */
 
 .sub-heading-medium {
-    color: var(--Blue-01, #B0D6FF);
-    font-family: Poppins;
+    color: var(--Blue-09, var(--Button-hover, #00336B));
+
+    /* Sub Heading Medium */
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
+    line-height: 170%;
+    /* 30.6px */
     letter-spacing: 0.54px;
 }
 
@@ -179,7 +182,7 @@ h3 {
 
     /* Sub Body Regular */
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 170%;
@@ -198,6 +201,13 @@ h3 {
     line-height: 170%;
     /* 23.8px */
     letter-spacing: 0.42px;
+}
+
+.caption {
+    color: var(--Monochrome-03, rgba(0, 0, 0, 0.50));
+    /* Caption */
+    font-family: Poppins;
+    font-size: 10px;
 }
 
 .mulai2 {
@@ -287,8 +297,8 @@ section {
 
 /* komunitas */
 #komunitas .img-komunitas {
-    width: auto;
-    height: 645px;
+    width: 80%;
+    height: 85%;
 }
 
 #komunitas .grup {
@@ -372,13 +382,13 @@ h3,
 }
 
 /* notifikasi */
-#notifikasi h1 {
+#notifikasi-ruang h1 {
     text-align: left;
     margin-bottom: 55px;
     margin-top: 20px;
 }
 
-#notifikasi .par2 {
+#notifikasi-ruang .par2 {
     margin-top: 24px;
 }
 

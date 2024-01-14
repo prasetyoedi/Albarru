@@ -1,0 +1,133 @@
+.siaran-content .search-container {
+  display: flex;
+  width: 100%;
+  background: var(--Blue-01, #b0d6ff);
+}
+
+.siaran-content .search {
+  width: 100%;
+  margin-bottom: auto;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  border-radius: var(--Button-corner-radius, 8px);
+  border: 2px solid var(--Blue-06, #006fe8);
+}
+
+.siaran-content .search-input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  margin-top: 5px;
+  caret-color: transparent;
+  line-height: 20px;
+  transition: width 0.4s linear;
+}
+
+.siaran-content .search .search-input {
+  padding: 0 10px;
+  width: 100%;
+  caret-color: #536bf6;
+  font-size: 14px;
+  font-weight: 300;
+  color: black;
+  transition: width 0.4s linear;
+}
+
+.siaran-content .search-input::placeholder {
+  color: var(--text-secondary, #4a5a67);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.siaran-content .search-icon {
+  height: 34px;
+  width: 34px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  bottom: 30px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.siaran-content .search-icon:hover {
+  color: #fff !important;
+}
+
+.channel-follow {
+  background: var(--Blue-01, #b0d6ff);
+  border-radius: 5px;
+  border-radius: var(--Button-corner-radius, 8px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* .section {
+  border: 1px solid var(--Blue-01, #b0d6ff);
+} */
+
+.list-item-channel {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.img-profile {
+  width: 86.95px;
+  height: 80px;
+  position: relative;
+}
+
+.picture-profile {
+  width: 100%;
+  height: 100%;
+}
+
+.active-indicator {
+  width: 22.4px;
+  height: 22.4px;
+  left: 64.55px;
+  top: 53.35px;
+  position: absolute;
+  background: #d254e2;
+  border-radius: 9999px;
+}
+
+.channel-title {
+    flex-direction: column;
+}
+
+.img-clip {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-card {
+    height: 80px;
+}
+
+.img-profile {
+    height: 60px;
+    width: 60px; /* Adjusted to make it a perfect circle */
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden; /* Ensure the image is clipped to the container */
+}
+
+.img-clip {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* In case the image is not a perfect square */
+}
