@@ -101,13 +101,13 @@ h2 {
 }
 
 /* Siaran Langsung */
-#siaran-langsung .card {
+.card {
     fill: var(--Monochrome-White, #F9F9F9);
     stroke-width: 1px;
     stroke: var(--Monochrome-04, rgba(0, 0, 0, 0.25));
 }
 
-#siaran-langsung .card .tag {
+.card .tag {
     width: 165px;
     height: 31px;
     padding: 18px 24px 18px 32px;
@@ -126,12 +126,12 @@ h2 {
     transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 
-#siaran-langsung .card .tag:hover {
+.card .tag:hover {
     background: #C12BDB;
     box-shadow: 0px 0px 10px 0px rgba(194, 43, 219, 0.75);
 }
 
-#siaran-langsung .card .tag .caption {
+.card .tag .caption {
     color: var(--Monochrome-White, #F9F9F9);
 
     /* Caption */
