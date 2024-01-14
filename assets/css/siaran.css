@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/Poppins-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 .siaran-content .search-container {
   display: flex;
   width: 100%;
@@ -96,38 +110,159 @@
 .active-indicator {
   width: 22.4px;
   height: 22.4px;
-  left: 64.55px;
-  top: 53.35px;
+  left: 44.55px;
+  top: 33.35px;
   position: absolute;
   background: #d254e2;
   border-radius: 9999px;
 }
 
 .channel-title {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .img-clip {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .img-card {
-    height: 80px;
+  height: 80px;
 }
 
 .img-profile {
-    height: 60px;
-    width: 60px; /* Adjusted to make it a perfect circle */
-    position: relative;
-    border-radius: 50%;
-    overflow: hidden; /* Ensure the image is clipped to the container */
+  height: 60px;
+  width: 60px; /* Adjusted to make it a perfect circle */
+  position: relative;
+  border-radius: 50%;
+  /* Ensure the image is clipped to the container */
 }
 
 .img-clip {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* In case the image is not a perfect square */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* In case the image is not a perfect square */
+}
+
+.img-profile-small {
+  width: 35px;
+  height: 35px;
+  padding: 1.09px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+video {
+  border-radius: 20px;
+}
+
+.chat-box {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  background: #f9f9f9;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px rgba(0, 0, 0, 0.25) solid;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  display: inline-flex;
+}
+
+.chat-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  display: inline-flex;
+}
+
+.user-info {
+  width: 50px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 17px;
+  display: inline-flex;
+}
+
+.user-avatar img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: linear-gradient(0deg, #007aff 0%, #007aff 100%);
+  border-radius: 9999px;
+}
+
+.user-details {
+  width: 196px;
+  left: 90px;
+  top: 6px;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.user-name {
+  color: black;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 23.8px;
+  letter-spacing: 0.42px;
+  word-wrap: break-word;
+}
+
+.user-message {
+  width: 196px;
+  color: black;
+  font-size: 12px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.36px;
+  word-wrap: break-word;
+}
+
+.input-chat {
+  flex: 1 1 0;
+  height: 52px;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f9f9f9;
+  box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.input-chat input {
+  border: 0px;
+}
+.input-chat input {
+  border: 0px;
+}
+
+#myVideo {
+  object-fit: cover; /* Atur objek-fit ke cover untuk memastikan video sesuai dengan kontainer tanpa mempertahankan aspek ratio */
+  width: 100%; /* Sesuaikan lebar dengan 100% agar video mengisi lebar kontainer */
+ /* Tetapkan tinggi sesuai kebutuhan Anda */
+}
+
+#myVideo::-webkit-media-controls {
+  display: none !important;
 }

@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/fonts/Poppins-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -454,8 +461,8 @@ h3 {
 }
 
 .profil .edit-akun img {
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
 }
 
 .profil .edit-akun .button {
@@ -469,7 +476,7 @@ h3 {
     border-radius: var(--Button-corner-radius, 8px);
     background: var(--Teritery, #D254E2);
     color: #fff;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     transition: transform 0.3s ease-in-out;
 }
